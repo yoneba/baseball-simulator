@@ -59,7 +59,7 @@ function positionsFor(rng: Rng, role: PlayerRole): FieldPosition[] {
 
 export interface GenerateOptions {
   id: string
-  number: number
+  number: string
   foreign?: boolean
   /** Surnames already on the team, to keep broadcast names unambiguous. */
   usedSurnames?: Set<string>
@@ -126,7 +126,7 @@ export function generateTeam(rng: Rng, seed: TeamSeed): Team {
   const roster = ROSTER_ROLES.map((role, i) =>
     generatePlayer(rng, role, {
       id: `${seed.id}-${i + 1}`,
-      number: numbers[i],
+      number: String(numbers[i]),
       foreign: FOREIGN_SLOTS.has(i),
       usedSurnames,
     }),

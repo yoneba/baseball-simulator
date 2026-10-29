@@ -62,6 +62,16 @@ describe('persistence', () => {
     expect(loadData(null).teams).toHaveLength(12)
   })
 
+  test('migrates numeric uniform numbers from version 1', () => {
+    const storage = new MemoryStorage()
+    const old = makeTeam('a')
+    const v1 = { ...old, roster: old.roster.map((p) => ({ ...p, number: Number(p.number) })) }
+    storage.setItem(STORAGE_KEY, JSON.stringify({ schemaVersion: 1, teams: [v1] }))
+    const data = loadData(storage)
+    expect(data.schemaVersion).toBe(2)
+    expect(data.teams[0].roster[0].number).toBe('1')
+  })
+
   test('fills in missing fields from older data', () => {
     const storage = new MemoryStorage()
     storage.setItem(STORAGE_KEY, JSON.stringify({ schemaVersion: 1, teams: [] }))
@@ -120,6 +130,12 @@ describe('export/import', () => {
     expect(ids.has(imported.lineup.startingPitcherId)).toBe(true)
     for (const s of imported.lineup.order) expect(ids.has(s.playerId)).toBe(true)
     for (const id of imported.lineup.bullpen) expect(ids.has(id)).toBe(true)
+  })
+
+  test('accepts files with numeric uniform numbers', () => {
+    const file = JSON.parse(exportTeams([makeTeam('a')]))
+    for (const p of file.teams[0].roster) p.number = Number(p.number)
+    expect(parseTeamsFile(JSON.stringify(file))[0].roster[0].number).toBe('1')
   })
 
   test('rejects invalid files with Japanese messages', () => {

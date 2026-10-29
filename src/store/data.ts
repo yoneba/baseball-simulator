@@ -4,7 +4,7 @@ import type { League, LeagueRules, Team } from '../domain/types'
 import type { GameSetup, RecordedAction, Side } from '../sim/game'
 
 export const STORAGE_KEY = 'bbsim:v1'
-export const SCHEMA_VERSION = 1
+export const SCHEMA_VERSION = 2
 /** Oldest saved games are dropped past this, to stay well inside localStorage quotas. */
 export const MAX_SAVED_GAMES = 100
 
@@ -38,14 +38,27 @@ export function defaultData(): AppData {
   }
 }
 
+/** Version 1 stored 背番号 as numbers; they are strings from version 2. */
+export function stringifyNumbers(teams: Team[]): Team[] {
+  return teams.map((t) => ({ ...t, roster: t.roster.map((p) => ({ ...p, number: String(p.number) })) }))
+}
+
 /** Upgrades stored data from older schema versions. */
 function migrate(raw: { schemaVersion?: number } & Partial<AppData>): AppData {
-  // Version 1 is the first schema; future versions add steps here.
+  let teams = raw.teams ?? []
+  let savedGames = raw.savedGames ?? []
+  if ((raw.schemaVersion ?? 1) < 2) {
+    teams = stringifyNumbers(teams)
+    savedGames = savedGames.map((g) => {
+      const [away, home] = stringifyNumbers([g.setup.away, g.setup.home])
+      return { ...g, setup: { ...g.setup, away, home } }
+    })
+  }
   return {
     schemaVersion: SCHEMA_VERSION,
-    teams: raw.teams ?? [],
+    teams,
     leagueRules: { ...structuredClone(DEFAULT_LEAGUE_RULES), ...raw.leagueRules },
-    savedGames: raw.savedGames ?? [],
+    savedGames,
   }
 }
 

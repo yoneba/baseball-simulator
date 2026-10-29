@@ -55,11 +55,18 @@ export function upsertPlayer(team: Team, player: Player): Team {
 }
 
 /** Lowest uniform number not used on the team, starting from `from`. */
-export function freeNumber(team: Team, from = 0): number {
+export function freeNumber(team: Team, from = 0): string {
   const used = new Set(team.roster.map((p) => p.number))
   let n = from
-  while (used.has(n)) n++
-  return n
+  while (used.has(String(n))) n++
+  return String(n)
+}
+
+export const isUniformNumber = (n: string) => /^\d{1,3}$/.test(n)
+
+/** Orders uniform numbers as rosters do: 00, 0, 1, 2 … */
+export function compareNumbers(a: string, b: string): number {
+  return Number(a) - Number(b) || b.length - a.length
 }
 
 /** Rating grade as used in Japanese baseball games: S (90+) down to G. */

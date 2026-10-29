@@ -4,7 +4,7 @@ import { downloadText } from '../../app/files'
 import { HAND_LABEL } from '../../app/labels'
 import { ROLE_LABEL, type PlayerRole } from '../../data/generate'
 import { POSITION_SHORT } from '../../domain/positions'
-import { removePlayer, upsertPlayer } from '../../domain/roster'
+import { compareNumbers, removePlayer, upsertPlayer } from '../../domain/roster'
 import { LEAGUE_NAME } from '../../domain/rules'
 import type { League, Player } from '../../domain/types'
 import { validateRoster } from '../../domain/validate'
@@ -26,8 +26,8 @@ export function TeamEditorPage() {
   if (!team) return <TeamNotFound />
 
   const errors = validateRoster(team, data.leagueRules[team.league])
-  const pitchers = team.roster.filter((p) => p.pitching).sort((a, b) => a.number - b.number)
-  const fielders = team.roster.filter((p) => !p.pitching).sort((a, b) => a.number - b.number)
+  const pitchers = team.roster.filter((p) => p.pitching).sort((a, b) => compareNumbers(a.number, b.number))
+  const fielders = team.roster.filter((p) => !p.pitching).sort((a, b) => compareNumbers(a.number, b.number))
 
   const remove = (player: Player) => {
     if (confirm(`${player.name}をチームから外しますか?`)) save(removePlayer(team, player.id))

@@ -1,6 +1,7 @@
 import { FIELD_POSITIONS, LINEUP_POSITIONS } from '../domain/positions'
+import { isUniformNumber } from '../domain/roster'
 import type { Player, Team } from '../domain/types'
-import { newId } from './data'
+import { newId, stringifyNumbers } from './data'
 
 const FORMAT = 'bbsim-teams'
 const VERSION = 1
@@ -18,7 +19,8 @@ function isPlayer(x: unknown): x is Player {
     isObject(x) &&
     typeof x.id === 'string' &&
     typeof x.name === 'string' &&
-    Number.isInteger(x.number) &&
+    typeof x.number === 'string' &&
+    isUniformNumber(x.number) &&
     ['R', 'L', 'S'].includes(x.bats as string) &&
     ['R', 'L'].includes(x.throws as string) &&
     Array.isArray(x.positions) &&
@@ -79,7 +81,9 @@ export function parseTeamsFile(text: string): Team[] {
   if (!isObject(raw) || raw.format !== FORMAT) throw new Error('このアプリから書き出したファイルではありません。')
   if (raw.version !== VERSION) throw new Error('対応していないバージョンのファイルです。')
   if (!Array.isArray(raw.teams) || raw.teams.length === 0) throw new Error('チームが含まれていません。')
-  const bad = raw.teams.findIndex((t) => !isTeam(t))
+  // Files from before 背番号 became text store numbers.
+  const teams = raw.teams.map((t) => (isObject(t) && Array.isArray(t.roster) ? stringifyNumbers([t as unknown as Team])[0] : t))
+  const bad = teams.findIndex((t) => !isTeam(t))
   if (bad >= 0) throw new Error(`${bad + 1}番目のチームのデータが壊れています。`)
-  return (raw.teams as Team[]).map(withNewIds)
+  return (teams as Team[]).map(withNewIds)
 }

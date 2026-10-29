@@ -29,7 +29,8 @@ export interface PitchingRatings {
 export interface Player {
   id: string
   name: string
-  number: number
+  /** 背番号, kept as text so that "00" and "0" are different numbers. */
+  number: string
   bats: Hand
   throws: Exclude<Hand, 'S'>
   /** Positions the player can field. */

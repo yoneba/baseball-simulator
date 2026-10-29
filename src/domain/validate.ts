@@ -23,7 +23,7 @@ export function validateRoster(team: Team, rules: LeagueRules): string[] {
     errors.push(`外国人野手は${rules.foreignPerRoleLimit}人までです(現在${foreignFielders}人)。`)
   }
 
-  const numbers = new Set<number>()
+  const numbers = new Set<string>()
   for (const p of roster) {
     if (numbers.has(p.number)) errors.push(`背番号${p.number}が重複しています。`)
     numbers.add(p.number)

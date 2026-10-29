@@ -3,7 +3,7 @@ import { Link, useNavigate, useParams } from 'react-router'
 import { BATTING_LABEL, FIELDING_LABEL, HAND_LABEL, PITCHING_LABEL } from '../../app/labels'
 import { ROLE_LABEL, type PlayerRole } from '../../data/generate'
 import { FIELD_POSITIONS, POSITION_NAME } from '../../domain/positions'
-import { upsertPlayer } from '../../domain/roster'
+import { isUniformNumber, upsertPlayer } from '../../domain/roster'
 import type { FieldPosition, Hand, Player, Team } from '../../domain/types'
 import { newId } from '../../store/data'
 import { Grade } from './Grade'
@@ -25,8 +25,8 @@ function roleOf(player: Player): PlayerRole {
 function validatePlayer(player: Player, team: Team): string[] {
   const errors: string[] = []
   if (!player.name.trim()) errors.push('名前を入力してください。')
-  if (!Number.isInteger(player.number) || player.number < 0 || player.number > 999) {
-    errors.push('背番号は0〜999で入力してください。')
+  if (!isUniformNumber(player.number)) {
+    errors.push('背番号は0〜999(00なども可)で入力してください。')
   } else if (team.roster.some((p) => p.id !== player.id && p.number === player.number)) {
     errors.push(`背番号${player.number}は他の選手が使っています。`)
   }
@@ -112,11 +112,10 @@ function PlayerEditor({ team, save }: { team: Team; save: (team: Team) => void }
         <label>
           背番号
           <input
-            type="number"
-            min={0}
-            max={999}
-            value={Number.isNaN(draft.number) ? '' : draft.number}
-            onChange={(e) => update({ number: e.target.valueAsNumber })}
+            inputMode="numeric"
+            maxLength={3}
+            value={draft.number}
+            onChange={(e) => update({ number: e.target.value.replace(/\D/g, '') })}
           />
         </label>
         <label>

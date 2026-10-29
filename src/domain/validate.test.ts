@@ -12,7 +12,7 @@ describe('validateRoster', () => {
 
   test('rejects more than 31 players', () => {
     const team = makeTeam()
-    for (let i = 0; i < 7; i++) team.roster.push(makePlayer(`x${i}`, { number: 60 + i }))
+    for (let i = 0; i < 7; i++) team.roster.push(makePlayer(`x${i}`, { number: String(60 + i) }))
     expect(validateRoster(team, rules)).toEqual(['一軍登録は31人までです(現在32人)。'])
   })
 
@@ -69,7 +69,7 @@ describe('validateLineup', () => {
 
   test('enforces the 26-man bench', () => {
     const team = makeTeam()
-    team.roster.push(makePitcher('a40', { number: 40 }), makePitcher('a41', { number: 41 }))
+    team.roster.push(makePitcher('a40', { number: '40' }), makePitcher('a41', { number: '41' }))
     expect(validateLineup(team, rules)).toEqual(['ベンチ入りは26人までです(現在27人)。'])
     team.lineup.benchOut = ['a41']
     expect(validateLineup(team, rules)).toEqual([])

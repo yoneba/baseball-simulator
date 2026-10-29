@@ -6,7 +6,7 @@ export function makePlayer(id: string, overrides: Partial<Player> = {}): Player 
   return {
     id,
     name: `選手${id}`,
-    number: Number(id.replace(/\D/g, '')) || 0,
+    number: String(Number(id.replace(/\D/g, '')) || 0),
     bats: 'R',
     throws: 'R',
     positions: ['1B'],
@@ -32,15 +32,15 @@ const ORDER: Position[] = ['CF', 'SS', 'RF', '1B', 'DH', '3B', 'LF', '2B', 'C']
 export function makeTeam(prefix = 'a', league: League = 'pacific'): Team {
   const batters = ORDER.map((pos, i) =>
     makePlayer(`${prefix}${i + 1}`, {
-      number: i + 1,
+      number: String(i + 1),
       positions: pos === 'DH' ? ['1B'] : [pos as FieldPosition],
     }),
   )
   const bench = (['C', 'SS', 'LF', '1B'] as FieldPosition[]).map((pos, i) =>
-    makePlayer(`${prefix}${10 + i}`, { number: 10 + i, positions: [pos] }),
+    makePlayer(`${prefix}${10 + i}`, { number: String(10 + i), positions: [pos] }),
   )
   const pitchers = Array.from({ length: 12 }, (_, i) =>
-    makePitcher(`${prefix}${20 + i}`, { number: 20 + i }),
+    makePitcher(`${prefix}${20 + i}`, { number: String(20 + i) }),
   )
   return {
     id: `team-${prefix}`,

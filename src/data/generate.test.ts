@@ -56,19 +56,19 @@ describe('generateDefaultTeams', () => {
 describe('generatePlayer', () => {
   test('pitchers pitch and catchers catch', () => {
     const rng = createRng(1)
-    const sp = generatePlayer(rng, 'SP', { id: 'x', number: 18 })
+    const sp = generatePlayer(rng, 'SP', { id: 'x', number: '18' })
     expect(sp.pitching!.stamina).toBeGreaterThanOrEqual(55)
     expect(sp.positions).toEqual(['P'])
-    const rp = generatePlayer(rng, 'RP', { id: 'y', number: 30 })
+    const rp = generatePlayer(rng, 'RP', { id: 'y', number: '30' })
     expect(rp.pitching!.stamina).toBeLessThanOrEqual(45)
-    const c = generatePlayer(rng, 'C', { id: 'z', number: 2 })
+    const c = generatePlayer(rng, 'C', { id: 'z', number: '2' })
     expect(c.positions[0]).toBe('C')
     expect(c.throws).toBe('R')
     expect(c.pitching).toBeUndefined()
   })
 
   test('foreign players get katakana names', () => {
-    const p = generatePlayer(createRng(3), 'OF', { id: 'f', number: 44, foreign: true })
+    const p = generatePlayer(createRng(3), 'OF', { id: 'f', number: '44', foreign: true })
     expect(p.foreign).toBe(true)
     expect(p.name).toMatch(/^[ァ-ヶー]+・[ァ-ヶー]+$/)
     expect(displayName(p)).toBe(p.name.split('・')[1])

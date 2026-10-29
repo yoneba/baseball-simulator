@@ -1,6 +1,6 @@
 import { describe, expect, test } from 'bun:test'
 import { makePitcher, makePlayer, makeTeam } from '../test/fixtures'
-import { freeNumber, ratingGrade, removePlayer, upsertPlayer } from './roster'
+import { compareNumbers, freeNumber, ratingGrade, removePlayer, upsertPlayer } from './roster'
 
 describe('roster helpers', () => {
   test('removePlayer clears every lineup reference', () => {
@@ -16,9 +16,9 @@ describe('roster helpers', () => {
 
   test('upsertPlayer adds relievers to the bullpen', () => {
     const team = makeTeam('a')
-    const reliever = makePitcher('a50', { number: 50, pitching: { stuff: 50, control: 50, stamina: 20 } })
+    const reliever = makePitcher('a50', { number: '50', pitching: { stuff: 50, control: 50, stamina: 20 } })
     expect(upsertPlayer(team, reliever).lineup.bullpen.at(-1)).toBe('a50')
-    const starter = makePitcher('a51', { number: 51, pitching: { stuff: 50, control: 50, stamina: 80 } })
+    const starter = makePitcher('a51', { number: '51', pitching: { stuff: 50, control: 50, stamina: 80 } })
     expect(upsertPlayer(team, starter).lineup.bullpen).not.toContain('a51')
   })
 
@@ -32,9 +32,13 @@ describe('roster helpers', () => {
 
   test('freeNumber skips used numbers', () => {
     const team = makeTeam('a')
-    team.roster.push(makePlayer('x', { number: 0 }))
-    expect(freeNumber(team)).toBe(14)
-    expect(freeNumber(team, 40)).toBe(40)
+    team.roster.push(makePlayer('x', { number: '0' }))
+    expect(freeNumber(team)).toBe('14')
+    expect(freeNumber(team, 40)).toBe('40')
+  })
+
+  test('compareNumbers puts 00 before 0', () => {
+    expect(['10', '0', '2', '00'].sort(compareNumbers)).toEqual(['00', '0', '2', '10'])
   })
 
   test('ratingGrade', () => {

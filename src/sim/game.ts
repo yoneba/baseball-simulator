@@ -1,7 +1,8 @@
+import { batValue } from '../domain/autoLineup'
 import { resolveBattingOrder } from '../domain/rules'
 import type { LeagueRules, LineupSlot, Player, Team } from '../domain/types'
 import { advanceRunners, EMPTY_BASES, type Bases, type Movement, type SpecialPlay } from './baserunning'
-import { pitchesForPA, rollOutcome, type DefenseRatings, type Outcome } from './model'
+import { pitchesForPA, pitchLimit, rollOutcome, type DefenseRatings, type Outcome } from './model'
 import { createRng } from './rng'
 
 export type Side = 'away' | 'home'
@@ -59,6 +60,8 @@ export interface SubEvent {
   half: Half
   inId: string
   outId: string
+  /** Batting order slot the incoming player takes, or null when they do not bat (DH games). */
+  slot: number | null
 }
 
 export interface HalfEndEvent {
@@ -76,7 +79,10 @@ export interface GameEndEvent {
 
 export type GameEvent = PAEvent | SubEvent | HalfEndEvent | GameEndEvent
 
-export type ManagerAction = { type: 'changePitcher'; side: Side; pitcherId: string }
+export type ManagerAction =
+  | { type: 'changePitcher'; side: Side; pitcherId: string }
+  | { type: 'pinchHit'; side: Side; playerId: string }
+  | { type: 'pinchRun'; side: Side; base: 1 | 2 | 3; playerId: string }
 
 export interface GameSetup {
   away: Team
@@ -163,23 +169,74 @@ export function availableRelievers(team: TeamGameState): Player[] {
   )
 }
 
-/** Applies a manager move. Throws if the move is illegal. */
+/** Position players on the bench who have not played yet: candidates for 代打 and 代走. */
+export function availableBench(team: TeamGameState): Player[] {
+  const out = new Set(team.team.lineup.benchOut)
+  const playing = new Set(team.order.map((s) => s.playerId))
+  return team.team.roster.filter(
+    (p) => !p.pitching && !out.has(p.id) && !playing.has(p.id) && !team.removed.includes(p.id),
+  )
+}
+
+/** Puts a bench player into a batting slot. Replacing the pitcher's slot needs a reliever for later. */
+function substitute(g: GameState, side: Side, slot: number, playerId: string, kind: 'pinchHitter' | 'pinchRunner'): void {
+  const team = g[side]
+  if (!availableBench(team).some((p) => p.id === playerId)) throw new Error('その選手は出場できません。')
+  const current = team.order[slot]
+  if (current.position === 'P' && availableRelievers(team).length === 0) {
+    throw new Error('交代できる投手がいないため、投手の打順には選手を送れません。')
+  }
+  team.order[slot] = { playerId, position: current.position }
+  team.removed.push(current.playerId)
+  g.events.push({ type: 'sub', kind, side, inning: g.inning, half: g.half, inId: playerId, outId: current.playerId, slot })
+}
+
+/** Applies a manager move. Throws an Error with a Japanese message if the move is illegal. */
 export function applyManagerAction(g: GameState, action: ManagerAction): void {
   if (g.status === 'final') throw new Error('試合は終了しています。')
   const team = g[action.side]
+
+  if (action.type === 'pinchHit') {
+    if (action.side !== battingSide(g)) throw new Error('攻撃中のチームのみ代打を送れます。')
+    return substitute(g, action.side, team.batterIndex, action.playerId, 'pinchHitter')
+  }
+
+  if (action.type === 'pinchRun') {
+    if (action.side !== battingSide(g)) throw new Error('攻撃中のチームのみ代走を送れます。')
+    const runner = g.bases[action.base - 1]
+    if (!runner) throw new Error('その塁に走者がいません。')
+    const slot = team.order.findIndex((s) => s.playerId === runner.playerId)
+    substitute(g, action.side, slot, action.playerId, 'pinchRunner')
+    g.bases[action.base - 1] = { ...runner, playerId: action.playerId }
+    return
+  }
+
   if (action.side !== fieldingSide(g)) throw new Error('守備中のチームのみ投手交代できます。')
   if (!availableRelievers(team).some((p) => p.id === action.pitcherId)) {
     throw new Error('その投手は登板できません。')
   }
   const outId = team.pitcherId
-  team.removed.push(outId)
+  if (!team.removed.includes(outId)) team.removed.push(outId)
   team.pitcherId = action.pitcherId
   team.pitchersUsed.push(action.pitcherId)
   team.pitcherLines[action.pitcherId] = { pitches: 0, outs: 0, runs: 0 }
-  // Without the DH the new pitcher takes over the old pitcher's batting slot.
-  const slot = team.order.find((s) => s.playerId === outId)
-  if (slot) slot.playerId = action.pitcherId
-  g.events.push({ type: 'sub', kind: 'pitcher', side: action.side, inning: g.inning, half: g.half, inId: action.pitcherId, outId })
+  // Without the DH the new pitcher bats in the pitcher's slot, replacing any pinch hitter there.
+  const slot = team.order.findIndex((s) => s.position === 'P')
+  if (slot >= 0) {
+    const replaced = team.order[slot].playerId
+    if (replaced !== outId && !team.removed.includes(replaced)) team.removed.push(replaced)
+    team.order[slot] = { playerId: action.pitcherId, position: 'P' }
+  }
+  g.events.push({
+    type: 'sub',
+    kind: 'pitcher',
+    side: action.side,
+    inning: g.inning,
+    half: g.half,
+    inId: action.pitcherId,
+    outId,
+    slot: slot >= 0 ? slot : null,
+  })
 }
 
 function endGame(g: GameState, result: Side | 'tie', walkoff: boolean): void {
@@ -282,29 +339,67 @@ export function step(g: GameState): void {
   if (g.outs >= 3) endHalf(g)
 }
 
-/** Basic CPU bullpen use: relieve tired or battered pitchers and give relievers one inning. */
-export function cpuActions(g: GameState, side: Side): ManagerAction[] {
-  if (g.status === 'final' || side !== fieldingSide(g)) return []
+const isSaveSituation = (g: GameState, side: Side) => {
+  const lead = g.score[side] - g.score[otherSide(side)]
+  return g.inning >= g.setup.rules.regulationInnings && lead > 0 && lead <= 3
+}
+
+/** The reliever to bring in next: the 抑え (last in the bullpen) in save situations, otherwise the next in order. */
+export function chooseReliever(g: GameState, side: Side): Player | undefined {
   const team = g[side]
+  const available = availableRelievers(team)
+  const order = team.team.lineup.bullpen
+  const ranked = [
+    ...order.map((id) => available.find((p) => p.id === id)).filter((p): p is Player => !!p),
+    ...available.filter((p) => !order.includes(p.id)),
+  ]
+  const closer = ranked.find((p) => p.id === order.at(-1))
+  if (closer && isSaveSituation(g, side)) return closer
+  return ranked.find((p) => p !== closer) ?? closer
+}
+
+/** CPU 采配: bullpen use, the 抑え in save situations, and 代打 for the pitcher late in non-DH games. */
+export function cpuActions(g: GameState, side: Side): ManagerAction[] {
+  if (g.status === 'final') return []
+  const team = g[side]
+
+  if (side === battingSide(g)) {
+    const slot = team.order[team.batterIndex]
+    const late = g.inning >= 7 || g.score[otherSide(side)] - g.score[side] >= 4
+    if (slot.position !== 'P' || !late || availableRelievers(team).length === 0) return []
+    const best = availableBench(team).sort((a, b) => batValue(b) - batValue(a))[0]
+    return best ? [{ type: 'pinchHit', side, playerId: best.id }] : []
+  }
+
   const pitcher = team.players[team.pitcherId]
   const line = team.pitcherLines[team.pitcherId]
   const isStarter = team.pitcherId === team.starterId
-  const limit = 15 + (pitcher.pitching?.stamina ?? 1)
   const startOfHalf = g.outs === 0 && g.bases.every((b) => b === null)
+  const closerId = team.team.lineup.bullpen.at(-1)
 
-  const tired = line.pitches >= limit
+  const tired = line.pitches >= pitchLimit(pitcher)
   const battered = isStarter ? line.runs >= 5 : line.runs >= 3
   const inningDone = !isStarter && startOfHalf && line.outs >= 3
-  if (!tired && !battered && !inningDone) return []
+  const closerTime = startOfHalf && team.pitcherId !== closerId && isSaveSituation(g, side)
+  if (!tired && !battered && !inningDone && !closerTime) return []
 
-  const next = team.team.lineup.bullpen
-    .map((id) => team.players[id])
-    .find((p) => p && availableRelievers(team).includes(p))
-  return next ? [{ type: 'changePitcher', side, pitcherId: next.id }] : []
+  const next = chooseReliever(g, side)
+  // Keep a fresh closer on the mound through the save.
+  if (!next || (team.pitcherId === closerId && !tired && !battered && !inningDone)) return []
+  return [{ type: 'changePitcher', side, pitcherId: next.id }]
 }
 
-/** Lets CPU-controlled sides make their moves, then plays the next plate appearance. */
+/**
+ * Brings in a reliever when the pitcher was replaced by a pinch hitter or
+ * runner, lets CPU-controlled sides make their moves, then plays the next
+ * plate appearance.
+ */
 export function advance(g: GameState): void {
+  const fld = fieldingSide(g)
+  if (g[fld].removed.includes(g[fld].pitcherId)) {
+    const next = chooseReliever(g, fld)
+    if (next) applyManagerAction(g, { type: 'changePitcher', side: fld, pitcherId: next.id })
+  }
   for (const side of ['away', 'home'] as const) {
     if (g[side].controller === 'cpu') for (const a of cpuActions(g, side)) applyManagerAction(g, a)
   }

@@ -77,7 +77,6 @@ export function buildBoxScore(g: GameState): BoxScore {
   const batting = { away: [] as BattingLine[], home: [] as BattingLine[] }
   const pitching = { away: [] as PitchingLine[], home: [] as PitchingLine[] }
   const totals = { away: { r: 0, h: 0, e: 0 }, home: { r: 0, h: 0, e: 0 } }
-  const order: Record<Side, string[]> = { away: [], home: [] }
   const current: Record<Side, string> = { away: '', home: '' }
   const batLine = { away: new Map<string, BattingLine>(), home: new Map<string, BattingLine>() }
   const pitchLine = { away: new Map<string, PitchingLine>(), home: new Map<string, PitchingLine>() }
@@ -88,7 +87,6 @@ export function buildBoxScore(g: GameState): BoxScore {
       const line = emptyBatting(s.playerId, i, s.position)
       batting[side].push(line)
       batLine[side].set(s.playerId, line)
-      order[side].push(s.playerId)
     })
     current[side] = team.lineup.startingPitcherId
     const line = emptyPitching(current[side])
@@ -103,10 +101,9 @@ export function buildBoxScore(g: GameState): BoxScore {
 
   for (const e of g.events) {
     if (e.type === 'sub') {
-      const slot = order[e.side].indexOf(e.outId)
+      const { slot } = e
       const role: EntryRole = e.kind === 'pitcher' ? '投' : e.kind === 'pinchHitter' ? '代打' : '代走'
-      if (slot >= 0) {
-        order[e.side][slot] = e.inId
+      if (slot !== null) {
         const line = emptyBatting(e.inId, slot, role)
         const at = batting[e.side].findLastIndex((l) => l.slot === slot) + 1
         batting[e.side].splice(at, 0, line)

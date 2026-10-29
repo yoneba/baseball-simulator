@@ -114,17 +114,14 @@ describe('game flow', () => {
 
 describe('DH', () => {
   const batters = (dh: boolean) =>
-    new Set(
-      play(setup(5, { rules: { ...DEFAULT_LEAGUE_RULES.central, dh } }))
-        .events.filter((e): e is PAEvent => e.type === 'pa' && e.half === 'top')
-        .map((e) => e.batterId),
-    )
+    play(setup(5, { rules: { ...DEFAULT_LEAGUE_RULES.central, dh } }))
+      .events.filter((e): e is PAEvent => e.type === 'pa' && e.half === 'top')
+      .map((e) => e.batterId)
 
   test('pitchers bat only without the DH', () => {
-    expect(batters(true).has('a20')).toBe(false)
-    expect(batters(true).has('a5')).toBe(true)
-    expect(batters(false).has('a20')).toBe(true)
-    expect(batters(false).has('a5')).toBe(false)
+    expect(batters(true)[4]).toBe('a5')
+    expect(batters(true)).not.toContain('a20')
+    expect(batters(false)[4]).toBe('a20')
   })
 })
 

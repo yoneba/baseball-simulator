@@ -5,6 +5,7 @@ import { battingSide, fieldingSide } from '../../sim/game'
 import { BoxScoreView } from './BoxScoreView'
 import { Diamond } from './Diamond'
 import { gameTitle, HALF } from './labels'
+import { ManagerPanel } from './ManagerPanel'
 import { PlayByPlay } from './PlayByPlay'
 import { useLiveGame } from './liveGameContext'
 import { Scoreboard } from './Scoreboard'
@@ -115,6 +116,8 @@ export function LiveGameView() {
           </label>
         </div>
       )}
+
+      <ManagerPanel />
 
       <PlayByPlay game={game} version={version} />
 

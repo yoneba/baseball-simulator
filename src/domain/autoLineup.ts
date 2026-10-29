@@ -1,6 +1,7 @@
 import type { Lineup, LineupSlot, Player, Position, Team } from './types'
 
-const batValue = (p: Player) =>
+/** Overall hitting value, used to rank batters. */
+export const batValue = (p: Player) =>
   p.batting.contact * 0.4 + p.batting.power * 0.35 + p.batting.eye * 0.15 + p.batting.speed * 0.1
 const fieldValue = (p: Player) => p.fielding.range * 0.5 + p.fielding.arm * 0.25 + p.fielding.hands * 0.25
 const pitchValue = (p: Player) => (p.pitching ? p.pitching.stuff + p.pitching.control : 0)

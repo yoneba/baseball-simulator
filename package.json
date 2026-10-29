@@ -12,6 +12,7 @@
 		"dev": "bun --bun vite",
 		"build": "bun --bun tsc -b && bun --bun vite build",
 		"lint": "oxlint",
+		"test": "bun test",
 		"preview": "bun run build && bun --bun vite preview",
 		"deploy": "bun run build && wrangler deploy",
 		"cf-typegen": "wrangler types"
@@ -23,6 +24,7 @@
 	},
 	"devDependencies": {
 		"@cloudflare/vite-plugin": "^1.66.0",
+		"@types/bun": "^1.4.4",
 		"@types/node": "^26.6.6",
 		"@types/react": "^19.3.0",
 		"@types/react-dom": "^19.3.0",

@@ -13,6 +13,7 @@
 		"build": "bun --bun tsc -b && bun --bun vite build",
 		"lint": "oxlint",
 		"test": "bun test",
+		"calibrate": "bun scripts/calibrate.ts",
 		"preview": "bun run build && bun --bun vite preview",
 		"deploy": "bun run build && wrangler deploy",
 		"cf-typegen": "wrangler types"

@@ -12,12 +12,12 @@ export const OUTCOMES: Outcome[] = ['K', 'BB', 'HBP', '1B', '2B', '3B', 'HR', 'G
 
 /** NPB-like league averages per plate appearance. Tuned by scripts/calibrate.ts. */
 export const BASELINE = {
-  k: 0.195,
+  k: 0.188,
   bb: 0.075,
   hbp: 0.009,
   hr: 0.022,
   /** Hits per ball in play (excluding HR). */
-  babip: 0.29,
+  babip: 0.297,
   /** Share of balls-in-play hits that are doubles / triples. */
   doubleShare: 0.18,
   tripleShare: 0.018,

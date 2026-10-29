@@ -170,7 +170,8 @@ describe('replayGame', () => {
   test('replays user moves exactly', () => {
     const s = setup(42, { controllers: { away: 'cpu', home: 'user' } })
     const live = createGame(s)
-    for (let i = 0; i < 10; i++) advance(live)
+    // Play into the game until the user-managed home team is in the field.
+    for (let i = 0; i < 10 || fieldingSide(live) !== 'home'; i++) advance(live)
     const action = { type: 'changePitcher' as const, side: 'home' as const, pitcherId: 'h25' }
     const recorded = [{ at: live.events.length, action }]
     applyManagerAction(live, action)

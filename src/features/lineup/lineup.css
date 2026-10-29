@@ -29,3 +29,8 @@
   flex-wrap: wrap;
   gap: 6px;
 }
+
+.starter-select select {
+  flex: 1;
+  min-width: 0;
+}

@@ -156,7 +156,7 @@ export function LineupEditorPage() {
 
       <div className="card stack">
         <h2>投手陣</h2>
-        <label className="row">
+        <label className="row starter-select">
           先発投手
           <select value={lineup.startingPitcherId} onChange={(e) => setStarter(e.target.value)}>
             <option value="">― 選択 ―</option>
@@ -184,7 +184,9 @@ export function LineupEditorPage() {
                     {p.number} {p.name}
                     {i === lineup.bullpen.length - 1 && <span className="badge ok">抑え</span>}
                   </span>
+                  <span className="muted small">球威</span>
                   <Grade value={p.pitching!.stuff} />
+                  <span className="muted small">制球</span>
                   <Grade value={p.pitching!.control} />
                   <span className="move-buttons">
                     <button aria-label="上へ" disabled={i === 0} onClick={() => setLineup({ bullpen: moveItem(lineup.bullpen, i, -1) })}>

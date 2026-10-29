@@ -30,6 +30,8 @@ bun install          # install dependencies
 bun run dev          # start the Vite dev server
 bun run build        # type-check and build
 bun run lint         # lint with oxlint
+bun run test         # run unit tests (bun test)
+bun run calibrate    # simulate 10k games and print league rates vs NPB targets
 bun run preview      # build and preview locally
 bun run deploy       # build and deploy to Cloudflare Workers
 bun run cf-typegen   # regenerate worker-configuration.d.ts

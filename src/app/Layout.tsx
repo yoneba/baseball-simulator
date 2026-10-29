@@ -1,6 +1,7 @@
 import { NavLink, Outlet } from 'react-router'
 import { useStore } from '../store/context'
 import { APP_TITLE, NAV_ITEMS } from './labels'
+import { ThemeToggle } from './ThemeToggle'
 import './Layout.css'
 
 export function Layout() {
@@ -19,6 +20,7 @@ export function Layout() {
               </NavLink>
             ))}
           </nav>
+          <ThemeToggle />
         </div>
       </header>
       <main className="site-main">

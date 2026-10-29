@@ -138,6 +138,7 @@ button.danger {
 
 input,
 select {
+  max-width: 100%;
   border: 1px solid var(--border);
   background: var(--surface);
   border-radius: 6px;
@@ -174,6 +175,8 @@ select {
 }
 
 .table-wrap {
+  /* Positioned so absolutely positioned .sr-only text inside is clipped too. */
+  position: relative;
   overflow-x: auto;
 }
 

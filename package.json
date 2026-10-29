@@ -9,12 +9,12 @@
 	},
 	"scripts": {
 		"preinstall": "case \"$npm_config_user_agent\" in bun/*) ;; *) echo 'This project uses bun. Run `bun install` instead.' >&2; exit 1 ;; esac",
-		"dev": "bun --bun vite",
+		"dev": "vite",
 		"build": "bun --bun tsc -b && bun --bun vite build",
 		"lint": "oxlint",
 		"test": "bun test",
 		"calibrate": "bun scripts/calibrate.ts",
-		"preview": "bun run build && bun --bun vite preview",
+		"preview": "bun run build && vite preview",
 		"deploy": "bun run build && wrangler deploy",
 		"cf-typegen": "wrangler types"
 	},

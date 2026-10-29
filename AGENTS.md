@@ -20,7 +20,8 @@ Rules:
 
 - `bun.lock` is the only lockfile. Never create or commit `package-lock.json`, `pnpm-lock.yaml`, or `yarn.lock`.
 - The `preinstall` script in `package.json` fails any install not run by Bun. Don't remove or work around it.
-- Scripts run Node-based CLIs (Vite, tsc) under Bun's runtime with `bun --bun`. Follow the same pattern when adding scripts.
+- Scripts run Node-based CLIs (tsc, `vite build`) under Bun's runtime with `bun --bun`. Follow the same pattern when adding scripts.
+- Exception: `vite` (dev server), `vite preview` and `wrangler` start Miniflare, which fails under Bun's runtime, so those scripts run without `--bun`. Still start them with `bun run`.
 
 ## Common commands
 

@@ -1,8 +1,10 @@
 import { NavLink, Outlet } from 'react-router'
+import { useStore } from '../store/context'
 import { APP_TITLE, NAV_ITEMS } from './labels'
 import './Layout.css'
 
 export function Layout() {
+  const { saveFailed } = useStore()
   return (
     <div className="layout">
       <header className="site-header">
@@ -20,6 +22,11 @@ export function Layout() {
         </div>
       </header>
       <main className="site-main">
+        {saveFailed && (
+          <p className="error-list" role="alert">
+            データを保存できませんでした。ブラウザの設定を確認するか、チームを書き出して保管してください。
+          </p>
+        )}
         <Outlet />
       </main>
     </div>

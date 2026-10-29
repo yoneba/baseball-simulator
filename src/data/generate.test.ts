@@ -5,21 +5,19 @@ import { validateLineup, validateRoster } from '../domain/validate'
 import { displayName } from '../sim/describe'
 import { createGame, simulateToEnd } from '../sim/game'
 import { createRng } from '../sim/rng'
-import { generateDefaultTeams, generatePlayer, generateTeam } from './generate'
-import { TEAM_SEEDS } from './teams'
+import { generatePlayer, generateTeam } from './generate'
+import { randomTeamIdentity, type TeamSeed } from './teams'
 
-const teams = generateDefaultTeams()
+const seed = (i: number): TeamSeed => ({
+  id: `random-${i}`,
+  league: i % 2 ? 'central' : 'pacific',
+  ...randomTeamIdentity(createRng(i)),
+})
+const teams = Array.from({ length: 12 }, (_, i) => generateTeam(createRng(100 + i), seed(i)))
 const rules = DEFAULT_LEAGUE_RULES.central
 
-describe('generateDefaultTeams', () => {
-  test('creates six fictional teams per league', () => {
-    expect(teams).toHaveLength(12)
-    expect(teams.filter((t) => t.league === 'central')).toHaveLength(6)
-    expect(teams.filter((t) => t.league === 'pacific')).toHaveLength(6)
-    expect(new Set(teams.map((t) => t.shortName)).size).toBe(12)
-  })
-
-  test('every team is a legal 31-man roster with a valid lineup', () => {
+describe('generateTeam', () => {
+  test('every random team is a legal 31-man roster with a valid lineup', () => {
     for (const team of teams) {
       expect(team.roster).toHaveLength(31)
       expect(validateRoster(team, rules)).toEqual([])
@@ -36,14 +34,14 @@ describe('generateDefaultTeams', () => {
   })
 
   test('is deterministic for a seed', () => {
-    expect(generateDefaultTeams(7)).toEqual(generateDefaultTeams(7))
-    expect(generateDefaultTeams(7)).not.toEqual(generateDefaultTeams(8))
+    expect(generateTeam(createRng(7), seed(0))).toEqual(generateTeam(createRng(7), seed(0)))
+    expect(generateTeam(createRng(7), seed(0))).not.toEqual(generateTeam(createRng(8), seed(0)))
   })
 
   test('generated teams can play a full game', () => {
     const g = createGame({
       away: teams[0],
-      home: teams[6],
+      home: teams[1],
       seed: 1,
       rules: DEFAULT_LEAGUE_RULES.pacific,
       controllers: { away: 'cpu', home: 'cpu' },
@@ -77,7 +75,7 @@ describe('generatePlayer', () => {
 
 describe('autoLineup', () => {
   test('bats the best hitters and saves the best reliever for last', () => {
-    const team = generateTeam(createRng(5), TEAM_SEEDS[0])
+    const team = generateTeam(createRng(5), seed(0))
     const lineup = autoLineup(team)
     const byId = new Map(team.roster.map((p) => [p.id, p]))
     const value = (id: string) => byId.get(id)!.pitching!.stuff + byId.get(id)!.pitching!.control

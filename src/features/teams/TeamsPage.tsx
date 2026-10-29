@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Link, useNavigate, useSearchParams } from 'react-router'
 import { downloadText, pickTextFile } from '../../app/files'
+import { NPB_SOURCE } from '../../data/npb'
 import { LEAGUE_NAME } from '../../domain/rules'
 import type { League, Team } from '../../domain/types'
 import { validateLineup, validateRoster } from '../../domain/validate'
@@ -38,7 +39,7 @@ export function TeamsPage() {
   }
 
   const reset = () => {
-    if (confirm('すべてのチームと試合記録を削除して、初期状態に戻しますか?')) {
+    if (confirm('すべてのチームと試合記録を削除して、プロ野球12球団の初期状態に戻しますか?')) {
       dispatch({ type: 'reset' })
       setMessage({ kind: 'ok', text: '初期状態に戻しました。' })
     }
@@ -117,6 +118,9 @@ export function TeamsPage() {
           />
           {LEAGUE_NAME[league]}で指名打者制(DH)を採用する
         </label>
+        <p className="muted small">
+          12球団の選手と能力は、{NPB_SOURCE.label}をもとに算出しています(一軍31人は出場機会の多い順に選出)。
+        </p>
         <p className="muted small">
           交流戦では、ホームチームのリーグのルールが適用されます。延長は{rules.maxInnings}回まで、
           一軍登録は{rules.rosterLimit}人(ベンチ入り{rules.benchLimit}人)、外国人枠は{rules.foreignLimit}人です。

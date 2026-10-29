@@ -6,6 +6,7 @@ import {
   loadData,
   MAX_SAVED_GAMES,
   saveData,
+  SCHEMA_VERSION,
   STORAGE_KEY,
   type AppData,
   type SavedGame,
@@ -42,7 +43,7 @@ class FullStorage extends MemoryStorage {
 }
 
 describe('persistence', () => {
-  test('first visit seeds the 12 fictional teams', () => {
+  test('first visit seeds the 12 NPB teams', () => {
     const data = loadData(new MemoryStorage())
     expect(data.teams).toHaveLength(12)
     expect(data.savedGames).toEqual([])
@@ -50,7 +51,7 @@ describe('persistence', () => {
 
   test('round-trips through storage', () => {
     const storage = new MemoryStorage()
-    const data = storeReducer(defaultData(), { type: 'deleteTeam', teamId: 'tokyo-mirages' })
+    const data = storeReducer(defaultData(), { type: 'deleteTeam', teamId: 'npb-g' })
     expect(saveData(data, storage)).toBe(true)
     expect(loadData(storage)).toEqual(data)
   })
@@ -68,13 +69,25 @@ describe('persistence', () => {
     const v1 = { ...old, roster: old.roster.map((p) => ({ ...p, number: Number(p.number) })) }
     storage.setItem(STORAGE_KEY, JSON.stringify({ schemaVersion: 1, teams: [v1] }))
     const data = loadData(storage)
-    expect(data.schemaVersion).toBe(2)
-    expect(data.teams[0].roster[0].number).toBe('1')
+    expect(data.schemaVersion).toBe(SCHEMA_VERSION)
+    expect(data.teams.find((t) => t.id === 'team-a')?.roster[0].number).toBe('1')
+  })
+
+  test('replaces the old fictional league with NPB teams and keeps user teams', () => {
+    const storage = new MemoryStorage()
+    const fictional = { ...makeTeam('x'), id: 'tokyo-mirages' }
+    const mine = makeTeam('m')
+    storage.setItem(STORAGE_KEY, JSON.stringify({ schemaVersion: 2, teams: [fictional, mine] }))
+    const ids = loadData(storage).teams.map((t) => t.id)
+    expect(ids).not.toContain('tokyo-mirages')
+    expect(ids).toContain('team-m')
+    expect(ids).toContain('npb-t')
+    expect(ids).toHaveLength(13)
   })
 
   test('fills in missing fields from older data', () => {
     const storage = new MemoryStorage()
-    storage.setItem(STORAGE_KEY, JSON.stringify({ schemaVersion: 1, teams: [] }))
+    storage.setItem(STORAGE_KEY, JSON.stringify({ schemaVersion: SCHEMA_VERSION, teams: [] }))
     const data = loadData(storage)
     expect(data.teams).toEqual([])
     expect(data.leagueRules).toEqual(DEFAULT_LEAGUE_RULES)

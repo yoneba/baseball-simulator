@@ -1,0 +1,10151 @@
+{
+ "season": 2026,
+ "source": "NPB.jp",
+ "teams": [
+  {
+   "id": "npb-g",
+   "name": "読売ジャイアンツ",
+   "shortName": "巨人",
+   "league": "central",
+   "color": "#f97709",
+   "roster": [
+    {
+     "id": "npb-g-97",
+     "name": "井上 温大",
+     "number": "97",
+     "bats": "L",
+     "throws": "L",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 99,
+      "arm": 50,
+      "hands": 53
+     },
+     "pitching": {
+      "stuff": 69,
+      "control": 69,
+      "stamina": 92
+     }
+    },
+    {
+     "id": "npb-g-21",
+     "name": "竹丸 和幸",
+     "number": "21",
+     "bats": "L",
+     "throws": "L",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 89,
+      "arm": 50,
+      "hands": 53
+     },
+     "pitching": {
+      "stuff": 65,
+      "control": 51,
+      "stamina": 84
+     }
+    },
+    {
+     "id": "npb-g-26",
+     "name": "ウィットリー",
+     "number": "26",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": true,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 71,
+      "arm": 50,
+      "hands": 40
+     },
+     "pitching": {
+      "stuff": 79,
+      "control": 21,
+      "stamina": 85
+     }
+    },
+    {
+     "id": "npb-g-20",
+     "name": "戸郷 翔征",
+     "number": "20",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 71,
+      "arm": 50,
+      "hands": 52
+     },
+     "pitching": {
+      "stuff": 58,
+      "control": 39,
+      "stamina": 84
+     }
+    },
+    {
+     "id": "npb-g-11",
+     "name": "田中 将大",
+     "number": "11",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 72,
+      "arm": 50,
+      "hands": 48
+     },
+     "pitching": {
+      "stuff": 42,
+      "control": 61,
+      "stamina": 78
+     }
+    },
+    {
+     "id": "npb-g-98",
+     "name": "小笠原 慎之介",
+     "number": "98",
+     "bats": "L",
+     "throws": "L",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 98,
+      "arm": 50,
+      "hands": 52
+     },
+     "pitching": {
+      "stuff": 51,
+      "control": 64,
+      "stamina": 87
+     }
+    },
+    {
+     "id": "npb-g-45",
+     "name": "田中 瑛斗",
+     "number": "45",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 51,
+      "arm": 50,
+      "hands": 54
+     },
+     "pitching": {
+      "stuff": 43,
+      "control": 45,
+      "stamina": 25
+     }
+    },
+    {
+     "id": "npb-g-92",
+     "name": "マルティネス",
+     "number": "92",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": true,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 58,
+      "arm": 50,
+      "hands": 44
+     },
+     "pitching": {
+      "stuff": 73,
+      "control": 59,
+      "stamina": 26
+     }
+    },
+    {
+     "id": "npb-g-41",
+     "name": "中川 皓太",
+     "number": "41",
+     "bats": "L",
+     "throws": "L",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 45,
+      "arm": 50,
+      "hands": 44
+     },
+     "pitching": {
+      "stuff": 61,
+      "control": 70,
+      "stamina": 24
+     }
+    },
+    {
+     "id": "npb-g-58",
+     "name": "船迫 大雅",
+     "number": "58",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 44,
+      "arm": 50,
+      "hands": 54
+     },
+     "pitching": {
+      "stuff": 46,
+      "control": 43,
+      "stamina": 23
+     }
+    },
+    {
+     "id": "npb-g-31",
+     "name": "赤星 優志",
+     "number": "31",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 61,
+      "arm": 50,
+      "hands": 54
+     },
+     "pitching": {
+      "stuff": 40,
+      "control": 59,
+      "stamina": 30
+     }
+    },
+    {
+     "id": "npb-g-91",
+     "name": "堀田 賢慎",
+     "number": "91",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 51,
+      "arm": 50,
+      "hands": 54
+     },
+     "pitching": {
+      "stuff": 46,
+      "control": 47,
+      "stamina": 27
+     }
+    },
+    {
+     "id": "npb-g-47",
+     "name": "森田 駿哉",
+     "number": "47",
+     "bats": "L",
+     "throws": "L",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 59,
+      "arm": 50,
+      "hands": 53
+     },
+     "pitching": {
+      "stuff": 47,
+      "control": 47,
+      "stamina": 30
+     }
+    },
+    {
+     "id": "npb-g-30",
+     "name": "田和 廉",
+     "number": "30",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 55,
+      "arm": 50,
+      "hands": 53
+     },
+     "pitching": {
+      "stuff": 42,
+      "control": 27,
+      "stamina": 26
+     }
+    },
+    {
+     "id": "npb-g-15",
+     "name": "大勢",
+     "number": "15",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 43,
+      "arm": 50,
+      "hands": 53
+     },
+     "pitching": {
+      "stuff": 67,
+      "control": 58,
+      "stamina": 26
+     }
+    },
+    {
+     "id": "npb-g-24",
+     "name": "大城 卓三",
+     "number": "24",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "C",
+      "1B"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 37,
+      "power": 53,
+      "eye": 53,
+      "speed": 43
+     },
+     "fielding": {
+      "range": 62,
+      "arm": 43,
+      "hands": 52
+     }
+    },
+    {
+     "id": "npb-g-27",
+     "name": "岸田 行倫",
+     "number": "27",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "C"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 42,
+      "power": 42,
+      "eye": 40,
+      "speed": 38
+     },
+     "fielding": {
+      "range": 57,
+      "arm": 55,
+      "hands": 40
+     }
+    },
+    {
+     "id": "npb-g-35",
+     "name": "泉口 友汰",
+     "number": "35",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "SS"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 63,
+      "power": 44,
+      "eye": 65,
+      "speed": 58
+     },
+     "fielding": {
+      "range": 68,
+      "arm": 50,
+      "hands": 48
+     }
+    },
+    {
+     "id": "npb-g-32",
+     "name": "浦田 俊輔",
+     "number": "32",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "2B",
+      "3B",
+      "SS"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 65,
+      "power": 29,
+      "eye": 46,
+      "speed": 99
+     },
+     "fielding": {
+      "range": 60,
+      "arm": 50,
+      "hands": 56
+     }
+    },
+    {
+     "id": "npb-g-5",
+     "name": "門脇 誠",
+     "number": "5",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "3B",
+      "2B",
+      "SS"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 30,
+      "power": 39,
+      "eye": 36,
+      "speed": 60
+     },
+     "fielding": {
+      "range": 38,
+      "arm": 50,
+      "hands": 52
+     }
+    },
+    {
+     "id": "npb-g-29",
+     "name": "ダルベック",
+     "number": "29",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "1B",
+      "3B"
+     ],
+     "foreign": true,
+     "batting": {
+      "contact": 25,
+      "power": 67,
+      "eye": 46,
+      "speed": 38
+     },
+     "fielding": {
+      "range": 53,
+      "arm": 50,
+      "hands": 50
+     }
+    },
+    {
+     "id": "npb-g-9",
+     "name": "松本 剛",
+     "number": "9",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "LF",
+      "CF",
+      "RF"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 66,
+      "power": 34,
+      "eye": 37,
+      "speed": 68
+     },
+     "fielding": {
+      "range": 50,
+      "arm": 55,
+      "hands": 52
+     }
+    },
+    {
+     "id": "npb-g-44",
+     "name": "佐々木 俊輔",
+     "number": "44",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "LF",
+      "RF"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 43,
+      "power": 51,
+      "eye": 42,
+      "speed": 58
+     },
+     "fielding": {
+      "range": 49,
+      "arm": 53,
+      "hands": 56
+     }
+    },
+    {
+     "id": "npb-g-13",
+     "name": "キャベッジ",
+     "number": "13",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "LF",
+      "RF"
+     ],
+     "foreign": true,
+     "batting": {
+      "contact": 21,
+      "power": 55,
+      "eye": 35,
+      "speed": 47
+     },
+     "fielding": {
+      "range": 48,
+      "arm": 55,
+      "hands": 36
+     }
+    },
+    {
+     "id": "npb-g-22",
+     "name": "小林 誠司",
+     "number": "22",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "C"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 31,
+      "power": 42,
+      "eye": 46,
+      "speed": 42
+     },
+     "fielding": {
+      "range": 28,
+      "arm": 34,
+      "hands": 55
+     }
+    },
+    {
+     "id": "npb-g-2",
+     "name": "吉川 尚輝",
+     "number": "2",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "2B"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 46,
+      "power": 34,
+      "eye": 43,
+      "speed": 53
+     },
+     "fielding": {
+      "range": 50,
+      "arm": 50,
+      "hands": 62
+     }
+    },
+    {
+     "id": "npb-g-61",
+     "name": "増田 陸",
+     "number": "61",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "1B",
+      "2B"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 34,
+      "power": 50,
+      "eye": 26,
+      "speed": 41
+     },
+     "fielding": {
+      "range": 50,
+      "arm": 50,
+      "hands": 45
+     }
+    },
+    {
+     "id": "npb-g-6",
+     "name": "坂本 勇人",
+     "number": "6",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "3B"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 17,
+      "power": 48,
+      "eye": 51,
+      "speed": 38
+     },
+     "fielding": {
+      "range": 50,
+      "arm": 50,
+      "hands": 58
+     }
+    },
+    {
+     "id": "npb-g-40",
+     "name": "中山 礼都",
+     "number": "40",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "LF",
+      "RF"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 31,
+      "power": 40,
+      "eye": 45,
+      "speed": 48
+     },
+     "fielding": {
+      "range": 43,
+      "arm": 48,
+      "hands": 46
+     }
+    },
+    {
+     "id": "npb-g-8",
+     "name": "丸 佳浩",
+     "number": "8",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "LF",
+      "RF"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 37,
+      "power": 46,
+      "eye": 66,
+      "speed": 43
+     },
+     "fielding": {
+      "range": 45,
+      "arm": 61,
+      "hands": 41
+     }
+    },
+    {
+     "id": "npb-g-23",
+     "name": "石塚 裕惺",
+     "number": "23",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "3B"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 34,
+      "power": 37,
+      "eye": 54,
+      "speed": 45
+     },
+     "fielding": {
+      "range": 53,
+      "arm": 50,
+      "hands": 38
+     }
+    }
+   ],
+   "lineup": {
+    "order": [
+     {
+      "playerId": "npb-g-9",
+      "position": "CF"
+     },
+     {
+      "playerId": "npb-g-2",
+      "position": "DH"
+     },
+     {
+      "playerId": "npb-g-32",
+      "position": "2B"
+     },
+     {
+      "playerId": "npb-g-35",
+      "position": "SS"
+     },
+     {
+      "playerId": "npb-g-29",
+      "position": "3B"
+     },
+     {
+      "playerId": "npb-g-44",
+      "position": "RF"
+     },
+     {
+      "playerId": "npb-g-24",
+      "position": "C"
+     },
+     {
+      "playerId": "npb-g-8",
+      "position": "LF"
+     },
+     {
+      "playerId": "npb-g-61",
+      "position": "1B"
+     }
+    ],
+    "startingPitcherId": "npb-g-97",
+    "bullpen": [
+     "npb-g-30",
+     "npb-g-45",
+     "npb-g-58",
+     "npb-g-91",
+     "npb-g-47",
+     "npb-g-31",
+     "npb-g-15",
+     "npb-g-41",
+     "npb-g-92"
+    ],
+    "benchOut": [
+     "npb-g-21",
+     "npb-g-98",
+     "npb-g-11",
+     "npb-g-26",
+     "npb-g-20"
+    ]
+   }
+  },
+  {
+   "id": "npb-t",
+   "name": "阪神タイガース",
+   "shortName": "阪神",
+   "league": "central",
+   "color": "#e8b500",
+   "roster": [
+    {
+     "id": "npb-t-41",
+     "name": "村上 頌樹",
+     "number": "41",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 99,
+      "arm": 50,
+      "hands": 51
+     },
+     "pitching": {
+      "stuff": 53,
+      "control": 71,
+      "stamina": 95
+     }
+    },
+    {
+     "id": "npb-t-29",
+     "name": "髙橋 遥人",
+     "number": "29",
+     "bats": "L",
+     "throws": "L",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 99,
+      "arm": 50,
+      "hands": 50
+     },
+     "pitching": {
+      "stuff": 65,
+      "control": 89,
+      "stamina": 95
+     }
+    },
+    {
+     "id": "npb-t-35",
+     "name": "才木 浩人",
+     "number": "35",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 97,
+      "arm": 50,
+      "hands": 53
+     },
+     "pitching": {
+      "stuff": 75,
+      "control": 73,
+      "stamina": 89
+     }
+    },
+    {
+     "id": "npb-t-21",
+     "name": "大竹 耕太郎",
+     "number": "21",
+     "bats": "L",
+     "throws": "L",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 99,
+      "arm": 50,
+      "hands": 52
+     },
+     "pitching": {
+      "stuff": 33,
+      "control": 76,
+      "stamina": 83
+     }
+    },
+    {
+     "id": "npb-t-27",
+     "name": "伊藤 将司",
+     "number": "27",
+     "bats": "L",
+     "throws": "L",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 83,
+      "arm": 50,
+      "hands": 52
+     },
+     "pitching": {
+      "stuff": 36,
+      "control": 61,
+      "stamina": 73
+     }
+    },
+    {
+     "id": "npb-t-16",
+     "name": "西 勇輝",
+     "number": "16",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 69,
+      "arm": 50,
+      "hands": 51
+     },
+     "pitching": {
+      "stuff": 34,
+      "control": 44,
+      "stamina": 68
+     }
+    },
+    {
+     "id": "npb-t-49",
+     "name": "工藤 泰成",
+     "number": "49",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 56,
+      "arm": 50,
+      "hands": 54
+     },
+     "pitching": {
+      "stuff": 94,
+      "control": 61,
+      "stamina": 28
+     }
+    },
+    {
+     "id": "npb-t-98",
+     "name": "ドリス",
+     "number": "98",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": true,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 45,
+      "arm": 50,
+      "hands": 54
+     },
+     "pitching": {
+      "stuff": 75,
+      "control": 40,
+      "stamina": 26
+     }
+    },
+    {
+     "id": "npb-t-13",
+     "name": "岩崎 優",
+     "number": "13",
+     "bats": "L",
+     "throws": "L",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 55,
+      "arm": 50,
+      "hands": 54
+     },
+     "pitching": {
+      "stuff": 51,
+      "control": 51,
+      "stamina": 26
+     }
+    },
+    {
+     "id": "npb-t-37",
+     "name": "及川 雅貴",
+     "number": "37",
+     "bats": "L",
+     "throws": "L",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 55,
+      "arm": 50,
+      "hands": 54
+     },
+     "pitching": {
+      "stuff": 31,
+      "control": 50,
+      "stamina": 26
+     }
+    },
+    {
+     "id": "npb-t-54",
+     "name": "木下 里都",
+     "number": "54",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 45,
+      "arm": 50,
+      "hands": 54
+     },
+     "pitching": {
+      "stuff": 64,
+      "control": 49,
+      "stamina": 29
+     }
+    },
+    {
+     "id": "npb-t-65",
+     "name": "湯浅 京己",
+     "number": "65",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 51,
+      "arm": 50,
+      "hands": 53
+     },
+     "pitching": {
+      "stuff": 49,
+      "control": 47,
+      "stamina": 27
+     }
+    },
+    {
+     "id": "npb-t-47",
+     "name": "桐敷 拓馬",
+     "number": "47",
+     "bats": "L",
+     "throws": "L",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 52,
+      "arm": 50,
+      "hands": 53
+     },
+     "pitching": {
+      "stuff": 39,
+      "control": 44,
+      "stamina": 26
+     }
+    },
+    {
+     "id": "npb-t-97",
+     "name": "セベリーノ",
+     "number": "97",
+     "bats": "L",
+     "throws": "L",
+     "positions": [
+      "P"
+     ],
+     "foreign": true,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 44,
+      "arm": 50,
+      "hands": 53
+     },
+     "pitching": {
+      "stuff": 53,
+      "control": 48,
+      "stamina": 28
+     }
+    },
+    {
+     "id": "npb-t-95",
+     "name": "神宮 僚介",
+     "number": "95",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 52,
+      "arm": 50,
+      "hands": 52
+     },
+     "pitching": {
+      "stuff": 60,
+      "control": 65,
+      "stamina": 28
+     }
+    },
+    {
+     "id": "npb-t-12",
+     "name": "坂本 誠志郎",
+     "number": "12",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "C"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 10,
+      "power": 51,
+      "eye": 42,
+      "speed": 45
+     },
+     "fielding": {
+      "range": 57,
+      "arm": 66,
+      "hands": 43
+     }
+    },
+    {
+     "id": "npb-t-17",
+     "name": "伏見 寅威",
+     "number": "17",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "C"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 37,
+      "power": 33,
+      "eye": 42,
+      "speed": 38
+     },
+     "fielding": {
+      "range": 51,
+      "arm": 47,
+      "hands": 58
+     }
+    },
+    {
+     "id": "npb-t-4",
+     "name": "熊谷 敬宥",
+     "number": "4",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "SS",
+      "2B",
+      "1B",
+      "LF",
+      "RF",
+      "3B"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 25,
+      "power": 33,
+      "eye": 26,
+      "speed": 56
+     },
+     "fielding": {
+      "range": 45,
+      "arm": 48,
+      "hands": 44
+     }
+    },
+    {
+     "id": "npb-t-7",
+     "name": "中野 拓夢",
+     "number": "7",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "2B"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 71,
+      "power": 27,
+      "eye": 40,
+      "speed": 52
+     },
+     "fielding": {
+      "range": 66,
+      "arm": 50,
+      "hands": 60
+     }
+    },
+    {
+     "id": "npb-t-8",
+     "name": "佐藤 輝明",
+     "number": "8",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "3B",
+      "LF",
+      "CF",
+      "RF"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 60,
+      "power": 88,
+      "eye": 58,
+      "speed": 54
+     },
+     "fielding": {
+      "range": 61,
+      "arm": 45,
+      "hands": 39
+     }
+    },
+    {
+     "id": "npb-t-3",
+     "name": "大山 悠輔",
+     "number": "3",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "1B"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 69,
+      "power": 58,
+      "eye": 63,
+      "speed": 38
+     },
+     "fielding": {
+      "range": 64,
+      "arm": 50,
+      "hands": 47
+     }
+    },
+    {
+     "id": "npb-t-1",
+     "name": "森下 翔太",
+     "number": "1",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "LF",
+      "CF",
+      "RF"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 72,
+      "power": 80,
+      "eye": 84,
+      "speed": 42
+     },
+     "fielding": {
+      "range": 52,
+      "arm": 46,
+      "hands": 49
+     }
+    },
+    {
+     "id": "npb-t-67",
+     "name": "髙寺 望夢",
+     "number": "67",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "LF",
+      "RF",
+      "2B"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 31,
+      "power": 35,
+      "eye": 57,
+      "speed": 63
+     },
+     "fielding": {
+      "range": 47,
+      "arm": 50,
+      "hands": 55
+     }
+    },
+    {
+     "id": "npb-t-5",
+     "name": "近本 光司",
+     "number": "5",
+     "bats": "L",
+     "throws": "L",
+     "positions": [
+      "LF",
+      "CF",
+      "RF"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 78,
+      "power": 39,
+      "eye": 52,
+      "speed": 64
+     },
+     "fielding": {
+      "range": 62,
+      "arm": 47,
+      "hands": 56
+     }
+    },
+    {
+     "id": "npb-t-2",
+     "name": "梅野 隆太郎",
+     "number": "2",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "C"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 33,
+      "power": 40,
+      "eye": 44,
+      "speed": 47
+     },
+     "fielding": {
+      "range": 56,
+      "arm": 51,
+      "hands": 56
+     }
+    },
+    {
+     "id": "npb-t-58",
+     "name": "前川 右京",
+     "number": "58",
+     "bats": "L",
+     "throws": "L",
+     "positions": [
+      "LF",
+      "RF"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 32,
+      "power": 48,
+      "eye": 54,
+      "speed": 38
+     },
+     "fielding": {
+      "range": 43,
+      "arm": 47,
+      "hands": 36
+     }
+    },
+    {
+     "id": "npb-t-00",
+     "name": "元山 飛優",
+     "number": "00",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "SS"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 40,
+      "power": 31,
+      "eye": 51,
+      "speed": 51
+     },
+     "fielding": {
+      "range": 59,
+      "arm": 50,
+      "hands": 46
+     }
+    },
+    {
+     "id": "npb-t-0",
+     "name": "木浪 聖也",
+     "number": "0",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "SS",
+      "3B"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 27,
+      "power": 35,
+      "eye": 37,
+      "speed": 46
+     },
+     "fielding": {
+      "range": 51,
+      "arm": 50,
+      "hands": 47
+     }
+    },
+    {
+     "id": "npb-t-92",
+     "name": "福島 圭音",
+     "number": "92",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "LF",
+      "RF"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 40,
+      "power": 36,
+      "eye": 50,
+      "speed": 62
+     },
+     "fielding": {
+      "range": 45,
+      "arm": 42,
+      "hands": 31
+     }
+    },
+    {
+     "id": "npb-t-9",
+     "name": "立石 正広",
+     "number": "9",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "3B",
+      "LF",
+      "CF",
+      "RF"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 19,
+      "power": 40,
+      "eye": 23,
+      "speed": 42
+     },
+     "fielding": {
+      "range": 52,
+      "arm": 46,
+      "hands": 46
+     }
+    },
+    {
+     "id": "npb-t-38",
+     "name": "小幡 竜平",
+     "number": "38",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "SS"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 22,
+      "power": 35,
+      "eye": 33,
+      "speed": 50
+     },
+     "fielding": {
+      "range": 43,
+      "arm": 50,
+      "hands": 30
+     }
+    }
+   ],
+   "lineup": {
+    "order": [
+     {
+      "playerId": "npb-t-5",
+      "position": "RF"
+     },
+     {
+      "playerId": "npb-t-7",
+      "position": "2B"
+     },
+     {
+      "playerId": "npb-t-8",
+      "position": "3B"
+     },
+     {
+      "playerId": "npb-t-1",
+      "position": "CF"
+     },
+     {
+      "playerId": "npb-t-3",
+      "position": "1B"
+     },
+     {
+      "playerId": "npb-t-92",
+      "position": "LF"
+     },
+     {
+      "playerId": "npb-t-58",
+      "position": "DH"
+     },
+     {
+      "playerId": "npb-t-00",
+      "position": "SS"
+     },
+     {
+      "playerId": "npb-t-2",
+      "position": "C"
+     }
+    ],
+    "startingPitcherId": "npb-t-29",
+    "bullpen": [
+     "npb-t-37",
+     "npb-t-47",
+     "npb-t-65",
+     "npb-t-97",
+     "npb-t-13",
+     "npb-t-54",
+     "npb-t-98",
+     "npb-t-95",
+     "npb-t-49"
+    ],
+    "benchOut": [
+     "npb-t-35",
+     "npb-t-41",
+     "npb-t-21",
+     "npb-t-27",
+     "npb-t-16"
+    ]
+   }
+  },
+  {
+   "id": "npb-db",
+   "name": "横浜DeNAベイスターズ",
+   "shortName": "DeNA",
+   "league": "central",
+   "color": "#0055a5",
+   "roster": [
+    {
+     "id": "npb-db-11",
+     "name": "東 克樹",
+     "number": "11",
+     "bats": "L",
+     "throws": "L",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 99,
+      "arm": 50,
+      "hands": 53
+     },
+     "pitching": {
+      "stuff": 42,
+      "control": 74,
+      "stamina": 92
+     }
+    },
+    {
+     "id": "npb-db-54",
+     "name": "石田 裕太郎",
+     "number": "54",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 99,
+      "arm": 50,
+      "hands": 52
+     },
+     "pitching": {
+      "stuff": 63,
+      "control": 61,
+      "stamina": 87
+     }
+    },
+    {
+     "id": "npb-db-59",
+     "name": "平良 拳太郎",
+     "number": "59",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 99,
+      "arm": 50,
+      "hands": 50
+     },
+     "pitching": {
+      "stuff": 61,
+      "control": 67,
+      "stamina": 76
+     }
+    },
+    {
+     "id": "npb-db-36",
+     "name": "尾形 崇斗",
+     "number": "36",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 94,
+      "arm": 50,
+      "hands": 50
+     },
+     "pitching": {
+      "stuff": 57,
+      "control": 33,
+      "stamina": 73
+     }
+    },
+    {
+     "id": "npb-db-30",
+     "name": "篠木 健太郎",
+     "number": "30",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 65,
+      "arm": 50,
+      "hands": 44
+     },
+     "pitching": {
+      "stuff": 46,
+      "control": 52,
+      "stamina": 81
+     }
+    },
+    {
+     "id": "npb-db-43",
+     "name": "深沢 鳳介",
+     "number": "43",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 86,
+      "arm": 50,
+      "hands": 49
+     },
+     "pitching": {
+      "stuff": 37,
+      "control": 55,
+      "stamina": 81
+     }
+    },
+    {
+     "id": "npb-db-62",
+     "name": "レイノルズ",
+     "number": "62",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": true,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 56,
+      "arm": 50,
+      "hands": 54
+     },
+     "pitching": {
+      "stuff": 89,
+      "control": 37,
+      "stamina": 27
+     }
+    },
+    {
+     "id": "npb-db-13",
+     "name": "伊勢 大夢",
+     "number": "13",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 45,
+      "arm": 50,
+      "hands": 44
+     },
+     "pitching": {
+      "stuff": 55,
+      "control": 57,
+      "stamina": 26
+     }
+    },
+    {
+     "id": "npb-db-64",
+     "name": "中川 虎大",
+     "number": "64",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 41,
+      "arm": 50,
+      "hands": 54
+     },
+     "pitching": {
+      "stuff": 71,
+      "control": 44,
+      "stamina": 26
+     }
+    },
+    {
+     "id": "npb-db-49",
+     "name": "ルイーズ",
+     "number": "49",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": true,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 56,
+      "arm": 50,
+      "hands": 54
+     },
+     "pitching": {
+      "stuff": 46,
+      "control": 51,
+      "stamina": 26
+     }
+    },
+    {
+     "id": "npb-db-52",
+     "name": "浜地 真澄",
+     "number": "52",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 59,
+      "arm": 50,
+      "hands": 53
+     },
+     "pitching": {
+      "stuff": 48,
+      "control": 64,
+      "stamina": 27
+     }
+    },
+    {
+     "id": "npb-db-20",
+     "name": "坂本 裕哉",
+     "number": "20",
+     "bats": "L",
+     "throws": "L",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 67,
+      "arm": 50,
+      "hands": 44
+     },
+     "pitching": {
+      "stuff": 36,
+      "control": 49,
+      "stamina": 26
+     }
+    },
+    {
+     "id": "npb-db-24",
+     "name": "吉野 光樹",
+     "number": "24",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 43,
+      "arm": 50,
+      "hands": 53
+     },
+     "pitching": {
+      "stuff": 55,
+      "control": 48,
+      "stamina": 26
+     }
+    },
+    {
+     "id": "npb-db-65",
+     "name": "宮城 滝太",
+     "number": "65",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 51,
+      "arm": 50,
+      "hands": 53
+     },
+     "pitching": {
+      "stuff": 53,
+      "control": 60,
+      "stamina": 26
+     }
+    },
+    {
+     "id": "npb-db-39",
+     "name": "若松 尚輝",
+     "number": "39",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 61,
+      "arm": 50,
+      "hands": 53
+     },
+     "pitching": {
+      "stuff": 51,
+      "control": 40,
+      "stamina": 32
+     }
+    },
+    {
+     "id": "npb-db-5",
+     "name": "松尾 汐恩",
+     "number": "5",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "C"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 55,
+      "power": 42,
+      "eye": 35,
+      "speed": 44
+     },
+     "fielding": {
+      "range": 60,
+      "arm": 56,
+      "hands": 51
+     }
+    },
+    {
+     "id": "npb-db-10",
+     "name": "戸柱 恭孝",
+     "number": "10",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "C"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 37,
+      "power": 40,
+      "eye": 34,
+      "speed": 44
+     },
+     "fielding": {
+      "range": 57,
+      "arm": 38,
+      "hands": 42
+     }
+    },
+    {
+     "id": "npb-db-34",
+     "name": "宮下 朝陽",
+     "number": "34",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "SS"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 42,
+      "power": 52,
+      "eye": 25,
+      "speed": 45
+     },
+     "fielding": {
+      "range": 52,
+      "arm": 50,
+      "hands": 52
+     }
+    },
+    {
+     "id": "npb-db-2",
+     "name": "牧 秀悟",
+     "number": "2",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "2B",
+      "1B"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 62,
+      "power": 82,
+      "eye": 59,
+      "speed": 40
+     },
+     "fielding": {
+      "range": 62,
+      "arm": 50,
+      "hands": 37
+     }
+    },
+    {
+     "id": "npb-db-51",
+     "name": "宮﨑 敏郎",
+     "number": "51",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "3B"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 57,
+      "power": 51,
+      "eye": 59,
+      "speed": 37
+     },
+     "fielding": {
+      "range": 51,
+      "arm": 50,
+      "hands": 61
+     }
+    },
+    {
+     "id": "npb-db-7",
+     "name": "佐野 恵太",
+     "number": "7",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "1B",
+      "LF",
+      "CF",
+      "RF"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 59,
+      "power": 45,
+      "eye": 57,
+      "speed": 36
+     },
+     "fielding": {
+      "range": 55,
+      "arm": 44,
+      "hands": 54
+     }
+    },
+    {
+     "id": "npb-db-4",
+     "name": "度会 隆輝",
+     "number": "4",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "LF",
+      "CF",
+      "RF",
+      "3B"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 64,
+      "power": 43,
+      "eye": 46,
+      "speed": 51
+     },
+     "fielding": {
+      "range": 52,
+      "arm": 57,
+      "hands": 61
+     }
+    },
+    {
+     "id": "npb-db-61",
+     "name": "蝦名 達夫",
+     "number": "61",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "LF",
+      "CF",
+      "RF"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 36,
+      "power": 41,
+      "eye": 50,
+      "speed": 60
+     },
+     "fielding": {
+      "range": 60,
+      "arm": 46,
+      "hands": 56
+     }
+    },
+    {
+     "id": "npb-db-28",
+     "name": "勝又 温史",
+     "number": "28",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "LF",
+      "CF",
+      "RF"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 62,
+      "power": 37,
+      "eye": 28,
+      "speed": 44
+     },
+     "fielding": {
+      "range": 55,
+      "arm": 48,
+      "hands": 60
+     }
+    },
+    {
+     "id": "npb-db-50",
+     "name": "山本 祐大",
+     "number": "50",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "C"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 42,
+      "power": 41,
+      "eye": 64,
+      "speed": 39
+     },
+     "fielding": {
+      "range": 61,
+      "arm": 48,
+      "hands": 48
+     }
+    },
+    {
+     "id": "npb-db-25",
+     "name": "筒香 嘉智",
+     "number": "25",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "3B",
+      "1B"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 40,
+      "power": 68,
+      "eye": 75,
+      "speed": 36
+     },
+     "fielding": {
+      "range": 52,
+      "arm": 50,
+      "hands": 44
+     }
+    },
+    {
+     "id": "npb-db-69",
+     "name": "エンカーナシオン",
+     "number": "69",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "LF",
+      "CF",
+      "RF"
+     ],
+     "foreign": true,
+     "batting": {
+      "contact": 59,
+      "power": 60,
+      "eye": 26,
+      "speed": 39
+     },
+     "fielding": {
+      "range": 53,
+      "arm": 52,
+      "hands": 37
+     }
+    },
+    {
+     "id": "npb-db-00",
+     "name": "林 琢真",
+     "number": "00",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "SS",
+      "2B",
+      "3B"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 33,
+      "power": 42,
+      "eye": 37,
+      "speed": 58
+     },
+     "fielding": {
+      "range": 51,
+      "arm": 50,
+      "hands": 48
+     }
+    },
+    {
+     "id": "npb-db-26",
+     "name": "三森 大貴",
+     "number": "26",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "LF",
+      "RF",
+      "2B",
+      "1B"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 36,
+      "power": 34,
+      "eye": 34,
+      "speed": 91
+     },
+     "fielding": {
+      "range": 45,
+      "arm": 58,
+      "hands": 52
+     }
+    },
+    {
+     "id": "npb-db-9",
+     "name": "京田 陽太",
+     "number": "9",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "SS",
+      "2B"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 35,
+      "power": 38,
+      "eye": 36,
+      "speed": 42
+     },
+     "fielding": {
+      "range": 45,
+      "arm": 50,
+      "hands": 55
+     }
+    },
+    {
+     "id": "npb-db-44",
+     "name": "石上 泰輝",
+     "number": "44",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "SS"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 31,
+      "power": 38,
+      "eye": 31,
+      "speed": 45
+     },
+     "fielding": {
+      "range": 52,
+      "arm": 50,
+      "hands": 46
+     }
+    }
+   ],
+   "lineup": {
+    "order": [
+     {
+      "playerId": "npb-db-26",
+      "position": "1B"
+     },
+     {
+      "playerId": "npb-db-4",
+      "position": "CF"
+     },
+     {
+      "playerId": "npb-db-25",
+      "position": "3B"
+     },
+     {
+      "playerId": "npb-db-2",
+      "position": "2B"
+     },
+     {
+      "playerId": "npb-db-69",
+      "position": "RF"
+     },
+     {
+      "playerId": "npb-db-51",
+      "position": "DH"
+     },
+     {
+      "playerId": "npb-db-7",
+      "position": "LF"
+     },
+     {
+      "playerId": "npb-db-5",
+      "position": "C"
+     },
+     {
+      "playerId": "npb-db-34",
+      "position": "SS"
+     }
+    ],
+    "startingPitcherId": "npb-db-59",
+    "bullpen": [
+     "npb-db-20",
+     "npb-db-39",
+     "npb-db-49",
+     "npb-db-24",
+     "npb-db-13",
+     "npb-db-52",
+     "npb-db-65",
+     "npb-db-64",
+     "npb-db-62"
+    ],
+    "benchOut": [
+     "npb-db-54",
+     "npb-db-11",
+     "npb-db-30",
+     "npb-db-43",
+     "npb-db-36"
+    ]
+   }
+  },
+  {
+   "id": "npb-c",
+   "name": "広島東洋カープ",
+   "shortName": "広島",
+   "league": "central",
+   "color": "#e60012",
+   "roster": [
+    {
+     "id": "npb-c-19",
+     "name": "床田 寛樹",
+     "number": "19",
+     "bats": "L",
+     "throws": "L",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 99,
+      "arm": 50,
+      "hands": 51
+     },
+     "pitching": {
+      "stuff": 23,
+      "control": 70,
+      "stamina": 90
+     }
+    },
+    {
+     "id": "npb-c-18",
+     "name": "森下 暢仁",
+     "number": "18",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 99,
+      "arm": 50,
+      "hands": 51
+     },
+     "pitching": {
+      "stuff": 40,
+      "control": 51,
+      "stamina": 87
+     }
+    },
+    {
+     "id": "npb-c-20",
+     "name": "栗林 良吏",
+     "number": "20",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 99,
+      "arm": 50,
+      "hands": 52
+     },
+     "pitching": {
+      "stuff": 53,
+      "control": 77,
+      "stamina": 92
+     }
+    },
+    {
+     "id": "npb-c-53",
+     "name": "岡本 駿",
+     "number": "53",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 74,
+      "arm": 50,
+      "hands": 53
+     },
+     "pitching": {
+      "stuff": 44,
+      "control": 51,
+      "stamina": 62
+     }
+    },
+    {
+     "id": "npb-c-16",
+     "name": "森 翔平",
+     "number": "16",
+     "bats": "L",
+     "throws": "L",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 99,
+      "arm": 50,
+      "hands": 50
+     },
+     "pitching": {
+      "stuff": 40,
+      "control": 54,
+      "stamina": 74
+     }
+    },
+    {
+     "id": "npb-c-65",
+     "name": "玉村 昇悟",
+     "number": "65",
+     "bats": "L",
+     "throws": "L",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 88,
+      "arm": 50,
+      "hands": 52
+     },
+     "pitching": {
+      "stuff": 40,
+      "control": 63,
+      "stamina": 79
+     }
+    },
+    {
+     "id": "npb-c-13",
+     "name": "森浦 大輔",
+     "number": "13",
+     "bats": "L",
+     "throws": "L",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 39,
+      "arm": 50,
+      "hands": 54
+     },
+     "pitching": {
+      "stuff": 89,
+      "control": 59,
+      "stamina": 27
+     }
+    },
+    {
+     "id": "npb-c-66",
+     "name": "遠藤 淳志",
+     "number": "66",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 43,
+      "arm": 50,
+      "hands": 34
+     },
+     "pitching": {
+      "stuff": 59,
+      "control": 68,
+      "stamina": 27
+     }
+    },
+    {
+     "id": "npb-c-22",
+     "name": "髙 太一",
+     "number": "22",
+     "bats": "L",
+     "throws": "L",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 49,
+      "arm": 50,
+      "hands": 54
+     },
+     "pitching": {
+      "stuff": 65,
+      "control": 46,
+      "stamina": 26
+     }
+    },
+    {
+     "id": "npb-c-68",
+     "name": "ハーン",
+     "number": "68",
+     "bats": "L",
+     "throws": "L",
+     "positions": [
+      "P"
+     ],
+     "foreign": true,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 39,
+      "arm": 50,
+      "hands": 11
+     },
+     "pitching": {
+      "stuff": 80,
+      "control": 53,
+      "stamina": 26
+     }
+    },
+    {
+     "id": "npb-c-98",
+     "name": "辻 大雅",
+     "number": "98",
+     "bats": "L",
+     "throws": "L",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 46,
+      "arm": 50,
+      "hands": 53
+     },
+     "pitching": {
+      "stuff": 53,
+      "control": 25,
+      "stamina": 26
+     }
+    },
+    {
+     "id": "npb-c-41",
+     "name": "鈴木 健矢",
+     "number": "41",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 75,
+      "arm": 50,
+      "hands": 49
+     },
+     "pitching": {
+      "stuff": 21,
+      "control": 56,
+      "stamina": 38
+     }
+    },
+    {
+     "id": "npb-c-36",
+     "name": "塹江 敦哉",
+     "number": "36",
+     "bats": "L",
+     "throws": "L",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 60,
+      "arm": 50,
+      "hands": 53
+     },
+     "pitching": {
+      "stuff": 63,
+      "control": 36,
+      "stamina": 28
+     }
+    },
+    {
+     "id": "npb-c-21",
+     "name": "中﨑 翔太",
+     "number": "21",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 58,
+      "arm": 50,
+      "hands": 53
+     },
+     "pitching": {
+      "stuff": 47,
+      "control": 47,
+      "stamina": 26
+     }
+    },
+    {
+     "id": "npb-c-42",
+     "name": "ターノック",
+     "number": "42",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": true,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 54,
+      "arm": 50,
+      "hands": 53
+     },
+     "pitching": {
+      "stuff": 63,
+      "control": 35,
+      "stamina": 43
+     }
+    },
+    {
+     "id": "npb-c-57",
+     "name": "持丸 泰輝",
+     "number": "57",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "C"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 12,
+      "power": 43,
+      "eye": 72,
+      "speed": 37
+     },
+     "fielding": {
+      "range": 45,
+      "arm": 46,
+      "hands": 56
+     }
+    },
+    {
+     "id": "npb-c-32",
+     "name": "石原 貴規",
+     "number": "32",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "C"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 23,
+      "power": 36,
+      "eye": 41,
+      "speed": 40
+     },
+     "fielding": {
+      "range": 40,
+      "arm": 36,
+      "hands": 39
+     }
+    },
+    {
+     "id": "npb-c-5",
+     "name": "小園 海斗",
+     "number": "5",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "SS",
+      "3B"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 58,
+      "power": 33,
+      "eye": 39,
+      "speed": 58
+     },
+     "fielding": {
+      "range": 40,
+      "arm": 50,
+      "hands": 54
+     }
+    },
+    {
+     "id": "npb-c-33",
+     "name": "菊池 涼介",
+     "number": "33",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "2B"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 39,
+      "power": 41,
+      "eye": 51,
+      "speed": 42
+     },
+     "fielding": {
+      "range": 57,
+      "arm": 50,
+      "hands": 59
+     }
+    },
+    {
+     "id": "npb-c-10",
+     "name": "佐々木 泰",
+     "number": "10",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "3B",
+      "LF",
+      "CF",
+      "RF",
+      "1B"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 57,
+      "power": 39,
+      "eye": 38,
+      "speed": 47
+     },
+     "fielding": {
+      "range": 57,
+      "arm": 55,
+      "hands": 54
+     }
+    },
+    {
+     "id": "npb-c-31",
+     "name": "坂倉 将吾",
+     "number": "31",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "1B",
+      "3B",
+      "C"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 45,
+      "power": 51,
+      "eye": 59,
+      "speed": 44
+     },
+     "fielding": {
+      "range": 51,
+      "arm": 48,
+      "hands": 51
+     }
+    },
+    {
+     "id": "npb-c-59",
+     "name": "大盛 穂",
+     "number": "59",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "LF",
+      "CF",
+      "RF"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 25,
+      "power": 43,
+      "eye": 24,
+      "speed": 80
+     },
+     "fielding": {
+      "range": 56,
+      "arm": 49,
+      "hands": 61
+     }
+    },
+    {
+     "id": "npb-c-61",
+     "name": "ファビアン",
+     "number": "61",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "LF",
+      "CF",
+      "RF"
+     ],
+     "foreign": true,
+     "batting": {
+      "contact": 36,
+      "power": 61,
+      "eye": 49,
+      "speed": 40
+     },
+     "fielding": {
+      "range": 60,
+      "arm": 71,
+      "hands": 51
+     }
+    },
+    {
+     "id": "npb-c-92",
+     "name": "名原 典彦",
+     "number": "92",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "LF",
+      "CF",
+      "RF"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 49,
+      "power": 40,
+      "eye": 31,
+      "speed": 71
+     },
+     "fielding": {
+      "range": 52,
+      "arm": 49,
+      "hands": 47
+     }
+    },
+    {
+     "id": "npb-c-95",
+     "name": "モンテロ",
+     "number": "95",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "1B"
+     ],
+     "foreign": true,
+     "batting": {
+      "contact": 33,
+      "power": 58,
+      "eye": 57,
+      "speed": 37
+     },
+     "fielding": {
+      "range": 53,
+      "arm": 50,
+      "hands": 47
+     }
+    },
+    {
+     "id": "npb-c-0",
+     "name": "勝田 成",
+     "number": "0",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "SS",
+      "2B"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 31,
+      "power": 30,
+      "eye": 47,
+      "speed": 62
+     },
+     "fielding": {
+      "range": 41,
+      "arm": 50,
+      "hands": 54
+     }
+    },
+    {
+     "id": "npb-c-9",
+     "name": "秋山 翔吾",
+     "number": "9",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "LF",
+      "CF",
+      "RF"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 60,
+      "power": 42,
+      "eye": 26,
+      "speed": 49
+     },
+     "fielding": {
+      "range": 54,
+      "arm": 48,
+      "hands": 41
+     }
+    },
+    {
+     "id": "npb-c-96",
+     "name": "中村 奨成",
+     "number": "96",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "LF",
+      "CF",
+      "RF"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 49,
+      "power": 46,
+      "eye": 39,
+      "speed": 43
+     },
+     "fielding": {
+      "range": 50,
+      "arm": 46,
+      "hands": 59
+     }
+    },
+    {
+     "id": "npb-c-94",
+     "name": "佐藤 啓介",
+     "number": "94",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "1B",
+      "LF",
+      "RF"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 30,
+      "power": 46,
+      "eye": 41,
+      "speed": 41
+     },
+     "fielding": {
+      "range": 48,
+      "arm": 46,
+      "hands": 51
+     }
+    },
+    {
+     "id": "npb-c-37",
+     "name": "野間 峻祥",
+     "number": "37",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "LF",
+      "RF"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 36,
+      "power": 34,
+      "eye": 57,
+      "speed": 52
+     },
+     "fielding": {
+      "range": 44,
+      "arm": 43,
+      "hands": 9
+     }
+    },
+    {
+     "id": "npb-c-99",
+     "name": "二俣 翔一",
+     "number": "99",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "LF",
+      "RF",
+      "SS",
+      "3B"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 23,
+      "power": 42,
+      "eye": 45,
+      "speed": 47
+     },
+     "fielding": {
+      "range": 37,
+      "arm": 45,
+      "hands": 56
+     }
+    }
+   ],
+   "lineup": {
+    "order": [
+     {
+      "playerId": "npb-c-92",
+      "position": "DH"
+     },
+     {
+      "playerId": "npb-c-5",
+      "position": "SS"
+     },
+     {
+      "playerId": "npb-c-31",
+      "position": "C"
+     },
+     {
+      "playerId": "npb-c-61",
+      "position": "CF"
+     },
+     {
+      "playerId": "npb-c-95",
+      "position": "1B"
+     },
+     {
+      "playerId": "npb-c-9",
+      "position": "RF"
+     },
+     {
+      "playerId": "npb-c-10",
+      "position": "3B"
+     },
+     {
+      "playerId": "npb-c-96",
+      "position": "LF"
+     },
+     {
+      "playerId": "npb-c-33",
+      "position": "2B"
+     }
+    ],
+    "startingPitcherId": "npb-c-20",
+    "bullpen": [
+     "npb-c-41",
+     "npb-c-98",
+     "npb-c-21",
+     "npb-c-42",
+     "npb-c-36",
+     "npb-c-22",
+     "npb-c-66",
+     "npb-c-68",
+     "npb-c-13"
+    ],
+    "benchOut": [
+     "npb-c-65",
+     "npb-c-53",
+     "npb-c-16",
+     "npb-c-19",
+     "npb-c-18"
+    ]
+   }
+  },
+  {
+   "id": "npb-s",
+   "name": "東京ヤクルトスワローズ",
+   "shortName": "ヤクルト",
+   "league": "central",
+   "color": "#1d7a46",
+   "roster": [
+    {
+     "id": "npb-s-26",
+     "name": "山野 太一",
+     "number": "26",
+     "bats": "L",
+     "throws": "L",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 99,
+      "arm": 50,
+      "hands": 50
+     },
+     "pitching": {
+      "stuff": 58,
+      "control": 62,
+      "stamina": 93
+     }
+    },
+    {
+     "id": "npb-s-18",
+     "name": "奥川 恭伸",
+     "number": "18",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 99,
+      "arm": 50,
+      "hands": 53
+     },
+     "pitching": {
+      "stuff": 40,
+      "control": 70,
+      "stamina": 95
+     }
+    },
+    {
+     "id": "npb-s-21",
+     "name": "吉村 貢司郎",
+     "number": "21",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 93,
+      "arm": 50,
+      "hands": 52
+     },
+     "pitching": {
+      "stuff": 28,
+      "control": 64,
+      "stamina": 80
+     }
+    },
+    {
+     "id": "npb-s-28",
+     "name": "松本 健吾",
+     "number": "28",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 77,
+      "arm": 50,
+      "hands": 53
+     },
+     "pitching": {
+      "stuff": 44,
+      "control": 58,
+      "stamina": 69
+     }
+    },
+    {
+     "id": "npb-s-47",
+     "name": "高橋 奎二",
+     "number": "47",
+     "bats": "L",
+     "throws": "L",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 75,
+      "arm": 50,
+      "hands": 49
+     },
+     "pitching": {
+      "stuff": 48,
+      "control": 38,
+      "stamina": 75
+     }
+    },
+    {
+     "id": "npb-s-40",
+     "name": "高梨 裕稔",
+     "number": "40",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 86,
+      "arm": 50,
+      "hands": 52
+     },
+     "pitching": {
+      "stuff": 49,
+      "control": 53,
+      "stamina": 84
+     }
+    },
+    {
+     "id": "npb-s-24",
+     "name": "星 知弥",
+     "number": "24",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 43,
+      "arm": 50,
+      "hands": 54
+     },
+     "pitching": {
+      "stuff": 40,
+      "control": 55,
+      "stamina": 26
+     }
+    },
+    {
+     "id": "npb-s-17",
+     "name": "清水 昇",
+     "number": "17",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 52,
+      "arm": 50,
+      "hands": 54
+     },
+     "pitching": {
+      "stuff": 52,
+      "control": 69,
+      "stamina": 25
+     }
+    },
+    {
+     "id": "npb-s-70",
+     "name": "廣澤 優",
+     "number": "70",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 44,
+      "arm": 50,
+      "hands": 25
+     },
+     "pitching": {
+      "stuff": 47,
+      "control": 39,
+      "stamina": 26
+     }
+    },
+    {
+     "id": "npb-s-11",
+     "name": "キハダ",
+     "number": "11",
+     "bats": "L",
+     "throws": "L",
+     "positions": [
+      "P"
+     ],
+     "foreign": true,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 45,
+      "arm": 50,
+      "hands": 54
+     },
+     "pitching": {
+      "stuff": 73,
+      "control": 8,
+      "stamina": 26
+     }
+    },
+    {
+     "id": "npb-s-68",
+     "name": "丸山 翔大",
+     "number": "68",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 62,
+      "arm": 50,
+      "hands": 54
+     },
+     "pitching": {
+      "stuff": 60,
+      "control": 50,
+      "stamina": 28
+     }
+    },
+    {
+     "id": "npb-s-62",
+     "name": "リランソ",
+     "number": "62",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": true,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 43,
+      "arm": 50,
+      "hands": 29
+     },
+     "pitching": {
+      "stuff": 64,
+      "control": 27,
+      "stamina": 26
+     }
+    },
+    {
+     "id": "npb-s-66",
+     "name": "阪口 皓亮",
+     "number": "66",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 49,
+      "arm": 50,
+      "hands": 44
+     },
+     "pitching": {
+      "stuff": 46,
+      "control": 39,
+      "stamina": 26
+     }
+    },
+    {
+     "id": "npb-s-30",
+     "name": "荘司 宏太",
+     "number": "30",
+     "bats": "L",
+     "throws": "L",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 46,
+      "arm": 50,
+      "hands": 53
+     },
+     "pitching": {
+      "stuff": 69,
+      "control": 22,
+      "stamina": 28
+     }
+    },
+    {
+     "id": "npb-s-58",
+     "name": "ウォルターズ",
+     "number": "58",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": true,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 68,
+      "arm": 50,
+      "hands": 53
+     },
+     "pitching": {
+      "stuff": 47,
+      "control": 27,
+      "stamina": 38
+     }
+    },
+    {
+     "id": "npb-s-2",
+     "name": "古賀 優大",
+     "number": "2",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "C"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 63,
+      "power": 33,
+      "eye": 26,
+      "speed": 48
+     },
+     "fielding": {
+      "range": 60,
+      "arm": 53,
+      "hands": 56
+     }
+    },
+    {
+     "id": "npb-s-65",
+     "name": "鈴木 叶",
+     "number": "65",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "C"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 24,
+      "power": 41,
+      "eye": 25,
+      "speed": 56
+     },
+     "fielding": {
+      "range": 53,
+      "arm": 53,
+      "hands": 27
+     }
+    },
+    {
+     "id": "npb-s-7",
+     "name": "長岡 秀樹",
+     "number": "7",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "SS"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 54,
+      "power": 42,
+      "eye": 48,
+      "speed": 49
+     },
+     "fielding": {
+      "range": 54,
+      "arm": 50,
+      "hands": 48
+     }
+    },
+    {
+     "id": "npb-s-3",
+     "name": "内山 壮真",
+     "number": "3",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "2B"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 39,
+      "power": 42,
+      "eye": 55,
+      "speed": 43
+     },
+     "fielding": {
+      "range": 52,
+      "arm": 50,
+      "hands": 35
+     }
+    },
+    {
+     "id": "npb-s-60",
+     "name": "武岡 龍世",
+     "number": "60",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "3B",
+      "2B",
+      "SS"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 27,
+      "power": 42,
+      "eye": 39,
+      "speed": 44
+     },
+     "fielding": {
+      "range": 48,
+      "arm": 50,
+      "hands": 52
+     }
+    },
+    {
+     "id": "npb-s-13",
+     "name": "オスナ",
+     "number": "13",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "1B"
+     ],
+     "foreign": true,
+     "batting": {
+      "contact": 36,
+      "power": 49,
+      "eye": 43,
+      "speed": 39
+     },
+     "fielding": {
+      "range": 53,
+      "arm": 50,
+      "hands": 56
+     }
+    },
+    {
+     "id": "npb-s-64",
+     "name": "岩田 幸宏",
+     "number": "64",
+     "bats": "L",
+     "throws": "L",
+     "positions": [
+      "LF",
+      "CF",
+      "RF"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 51,
+      "power": 29,
+      "eye": 32,
+      "speed": 99
+     },
+     "fielding": {
+      "range": 67,
+      "arm": 40,
+      "hands": 51
+     }
+    },
+    {
+     "id": "npb-s-63",
+     "name": "増田 珠",
+     "number": "63",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "LF",
+      "CF",
+      "RF",
+      "1B"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 68,
+      "power": 43,
+      "eye": 46,
+      "speed": 43
+     },
+     "fielding": {
+      "range": 55,
+      "arm": 49,
+      "hands": 50
+     }
+    },
+    {
+     "id": "npb-s-4",
+     "name": "丸山 和郁",
+     "number": "4",
+     "bats": "L",
+     "throws": "L",
+     "positions": [
+      "LF",
+      "CF",
+      "RF"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 66,
+      "power": 50,
+      "eye": 39,
+      "speed": 64
+     },
+     "fielding": {
+      "range": 50,
+      "arm": 47,
+      "hands": 58
+     }
+    },
+    {
+     "id": "npb-s-27",
+     "name": "中村 悠平",
+     "number": "27",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "C"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 39,
+      "power": 40,
+      "eye": 40,
+      "speed": 40
+     },
+     "fielding": {
+      "range": 45,
+      "arm": 46,
+      "hands": 55
+     }
+    },
+    {
+     "id": "npb-s-00",
+     "name": "赤羽 由紘",
+     "number": "00",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "3B",
+      "1B",
+      "LF",
+      "RF",
+      "2B"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 28,
+      "power": 44,
+      "eye": 49,
+      "speed": 55
+     },
+     "fielding": {
+      "range": 41,
+      "arm": 56,
+      "hands": 52
+     }
+    },
+    {
+     "id": "npb-s-67",
+     "name": "伊藤 琉偉",
+     "number": "67",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "2B",
+      "SS",
+      "3B"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 10,
+      "power": 39,
+      "eye": 40,
+      "speed": 53
+     },
+     "fielding": {
+      "range": 36,
+      "arm": 50,
+      "hands": 42
+     }
+    },
+    {
+     "id": "npb-s-6",
+     "name": "松下 歩叶",
+     "number": "6",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "3B"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 33,
+      "power": 42,
+      "eye": 38,
+      "speed": 42
+     },
+     "fielding": {
+      "range": 49,
+      "arm": 50,
+      "hands": 51
+     }
+    },
+    {
+     "id": "npb-s-36",
+     "name": "西村 瑠伊斗",
+     "number": "36",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "LF",
+      "CF",
+      "RF"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 43,
+      "power": 41,
+      "eye": 38,
+      "speed": 42
+     },
+     "fielding": {
+      "range": 55,
+      "arm": 51,
+      "hands": 48
+     }
+    },
+    {
+     "id": "npb-s-54",
+     "name": "田中 陽翔",
+     "number": "54",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "3B",
+      "2B"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 27,
+      "power": 42,
+      "eye": 38,
+      "speed": 43
+     },
+     "fielding": {
+      "range": 46,
+      "arm": 50,
+      "hands": 38
+     }
+    },
+    {
+     "id": "npb-s-9",
+     "name": "塩見 泰隆",
+     "number": "9",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "LF",
+      "RF"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 20,
+      "power": 44,
+      "eye": 35,
+      "speed": 43
+     },
+     "fielding": {
+      "range": 47,
+      "arm": 53,
+      "hands": 56
+     }
+    }
+   ],
+   "lineup": {
+    "order": [
+     {
+      "playerId": "npb-s-64",
+      "position": "LF"
+     },
+     {
+      "playerId": "npb-s-2",
+      "position": "C"
+     },
+     {
+      "playerId": "npb-s-63",
+      "position": "RF"
+     },
+     {
+      "playerId": "npb-s-4",
+      "position": "CF"
+     },
+     {
+      "playerId": "npb-s-13",
+      "position": "1B"
+     },
+     {
+      "playerId": "npb-s-7",
+      "position": "SS"
+     },
+     {
+      "playerId": "npb-s-3",
+      "position": "2B"
+     },
+     {
+      "playerId": "npb-s-36",
+      "position": "DH"
+     },
+     {
+      "playerId": "npb-s-00",
+      "position": "3B"
+     }
+    ],
+    "startingPitcherId": "npb-s-26",
+    "bullpen": [
+     "npb-s-58",
+     "npb-s-11",
+     "npb-s-66",
+     "npb-s-70",
+     "npb-s-62",
+     "npb-s-30",
+     "npb-s-24",
+     "npb-s-68",
+     "npb-s-17"
+    ],
+    "benchOut": [
+     "npb-s-18",
+     "npb-s-28",
+     "npb-s-40",
+     "npb-s-21",
+     "npb-s-47"
+    ]
+   }
+  },
+  {
+   "id": "npb-d",
+   "name": "中日ドラゴンズ",
+   "shortName": "中日",
+   "league": "central",
+   "color": "#003c8f",
+   "roster": [
+    {
+     "id": "npb-d-21",
+     "name": "金丸 夢斗",
+     "number": "21",
+     "bats": "L",
+     "throws": "L",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 99,
+      "arm": 50,
+      "hands": 53
+     },
+     "pitching": {
+      "stuff": 51,
+      "control": 72,
+      "stamina": 92
+     }
+    },
+    {
+     "id": "npb-d-17",
+     "name": "柳 裕也",
+     "number": "17",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 84,
+      "arm": 50,
+      "hands": 50
+     },
+     "pitching": {
+      "stuff": 47,
+      "control": 63,
+      "stamina": 90
+     }
+    },
+    {
+     "id": "npb-d-22",
+     "name": "大野 雄大",
+     "number": "22",
+     "bats": "L",
+     "throws": "L",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 99,
+      "arm": 50,
+      "hands": 51
+     },
+     "pitching": {
+      "stuff": 28,
+      "control": 54,
+      "stamina": 93
+     }
+    },
+    {
+     "id": "npb-d-19",
+     "name": "髙橋 宏斗",
+     "number": "19",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 99,
+      "arm": 50,
+      "hands": 50
+     },
+     "pitching": {
+      "stuff": 78,
+      "control": 56,
+      "stamina": 93
+     }
+    },
+    {
+     "id": "npb-d-93",
+     "name": "マラー",
+     "number": "93",
+     "bats": "R",
+     "throws": "L",
+     "positions": [
+      "P"
+     ],
+     "foreign": true,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 99,
+      "arm": 50,
+      "hands": 50
+     },
+     "pitching": {
+      "stuff": 44,
+      "control": 68,
+      "stamina": 91
+     }
+    },
+    {
+     "id": "npb-d-20",
+     "name": "涌井 秀章",
+     "number": "20",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 83,
+      "arm": 50,
+      "hands": 52
+     },
+     "pitching": {
+      "stuff": 32,
+      "control": 82,
+      "stamina": 79
+     }
+    },
+    {
+     "id": "npb-d-59",
+     "name": "齋藤 綱記",
+     "number": "59",
+     "bats": "L",
+     "throws": "L",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 47,
+      "arm": 50,
+      "hands": 54
+     },
+     "pitching": {
+      "stuff": 61,
+      "control": 52,
+      "stamina": 25
+     }
+    },
+    {
+     "id": "npb-d-47",
+     "name": "吉田 聖弥",
+     "number": "47",
+     "bats": "L",
+     "throws": "L",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 41,
+      "arm": 50,
+      "hands": 54
+     },
+     "pitching": {
+      "stuff": 66,
+      "control": 19,
+      "stamina": 26
+     }
+    },
+    {
+     "id": "npb-d-90",
+     "name": "松山 晋也",
+     "number": "90",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 45,
+      "arm": 50,
+      "hands": 54
+     },
+     "pitching": {
+      "stuff": 67,
+      "control": 46,
+      "stamina": 26
+     }
+    },
+    {
+     "id": "npb-d-54",
+     "name": "藤嶋 健人",
+     "number": "54",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 54,
+      "arm": 50,
+      "hands": 54
+     },
+     "pitching": {
+      "stuff": 29,
+      "control": 42,
+      "stamina": 26
+     }
+    },
+    {
+     "id": "npb-d-13",
+     "name": "橋本 侑樹",
+     "number": "13",
+     "bats": "L",
+     "throws": "L",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 49,
+      "arm": 50,
+      "hands": 45
+     },
+     "pitching": {
+      "stuff": 57,
+      "control": 53,
+      "stamina": 25
+     }
+    },
+    {
+     "id": "npb-d-28",
+     "name": "アブレウ",
+     "number": "28",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": true,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 52,
+      "arm": 50,
+      "hands": 43
+     },
+     "pitching": {
+      "stuff": 67,
+      "control": 21,
+      "stamina": 27
+     }
+    },
+    {
+     "id": "npb-d-14",
+     "name": "草加 勝",
+     "number": "14",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 41,
+      "arm": 50,
+      "hands": 53
+     },
+     "pitching": {
+      "stuff": 47,
+      "control": 47,
+      "stamina": 27
+     }
+    },
+    {
+     "id": "npb-d-68",
+     "name": "牧野 憲伸",
+     "number": "68",
+     "bats": "L",
+     "throws": "L",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 47,
+      "arm": 50,
+      "hands": 53
+     },
+     "pitching": {
+      "stuff": 35,
+      "control": 36,
+      "stamina": 24
+     }
+    },
+    {
+     "id": "npb-d-32",
+     "name": "伊藤 茉央",
+     "number": "32",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 54,
+      "arm": 50,
+      "hands": 52
+     },
+     "pitching": {
+      "stuff": 36,
+      "control": 63,
+      "stamina": 25
+     }
+    },
+    {
+     "id": "npb-d-9",
+     "name": "石伊 雄太",
+     "number": "9",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "C"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 46,
+      "power": 45,
+      "eye": 37,
+      "speed": 40
+     },
+     "fielding": {
+      "range": 61,
+      "arm": 45,
+      "hands": 46
+     }
+    },
+    {
+     "id": "npb-d-49",
+     "name": "加藤 匠馬",
+     "number": "49",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "C"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 17,
+      "power": 37,
+      "eye": 43,
+      "speed": 43
+     },
+     "fielding": {
+      "range": 40,
+      "arm": 62,
+      "hands": 57
+     }
+    },
+    {
+     "id": "npb-d-5",
+     "name": "村松 開人",
+     "number": "5",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "SS"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 55,
+      "power": 41,
+      "eye": 69,
+      "speed": 64
+     },
+     "fielding": {
+      "range": 60,
+      "arm": 50,
+      "hands": 36
+     }
+    },
+    {
+     "id": "npb-d-2",
+     "name": "田中 幹也",
+     "number": "2",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "2B",
+      "SS"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 52,
+      "power": 36,
+      "eye": 38,
+      "speed": 64
+     },
+     "fielding": {
+      "range": 54,
+      "arm": 50,
+      "hands": 60
+     }
+    },
+    {
+     "id": "npb-d-25",
+     "name": "石川 昂弥",
+     "number": "25",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "3B",
+      "1B"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 47,
+      "power": 52,
+      "eye": 47,
+      "speed": 40
+     },
+     "fielding": {
+      "range": 65,
+      "arm": 50,
+      "hands": 59
+     }
+    },
+    {
+     "id": "npb-d-23",
+     "name": "サノー",
+     "number": "23",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "1B"
+     ],
+     "foreign": true,
+     "batting": {
+      "contact": 23,
+      "power": 74,
+      "eye": 51,
+      "speed": 36
+     },
+     "fielding": {
+      "range": 57,
+      "arm": 50,
+      "hands": 47
+     }
+    },
+    {
+     "id": "npb-d-55",
+     "name": "細川 成也",
+     "number": "55",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "LF",
+      "CF",
+      "RF"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 25,
+      "power": 64,
+      "eye": 91,
+      "speed": 42
+     },
+     "fielding": {
+      "range": 52,
+      "arm": 63,
+      "hands": 58
+     }
+    },
+    {
+     "id": "npb-d-1",
+     "name": "岡林 勇希",
+     "number": "1",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "LF",
+      "CF",
+      "RF"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 48,
+      "power": 36,
+      "eye": 42,
+      "speed": 41
+     },
+     "fielding": {
+      "range": 65,
+      "arm": 53,
+      "hands": 60
+     }
+    },
+    {
+     "id": "npb-d-63",
+     "name": "板山 祐太郎",
+     "number": "63",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "LF",
+      "RF",
+      "1B",
+      "2B"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 34,
+      "power": 52,
+      "eye": 46,
+      "speed": 51
+     },
+     "fielding": {
+      "range": 45,
+      "arm": 74,
+      "hands": 50
+     }
+    },
+    {
+     "id": "npb-d-35",
+     "name": "木下 拓哉",
+     "number": "35",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "C"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 46,
+      "power": 38,
+      "eye": 33,
+      "speed": 40
+     },
+     "fielding": {
+      "range": 45,
+      "arm": 49,
+      "hands": 44
+     }
+    },
+    {
+     "id": "npb-d-7",
+     "name": "福永 裕基",
+     "number": "7",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "2B",
+      "3B",
+      "1B"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 61,
+      "power": 47,
+      "eye": 50,
+      "speed": 65
+     },
+     "fielding": {
+      "range": 52,
+      "arm": 50,
+      "hands": 50
+     }
+    },
+    {
+     "id": "npb-d-24",
+     "name": "ボスラー",
+     "number": "24",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "LF",
+      "RF",
+      "1B",
+      "3B"
+     ],
+     "foreign": true,
+     "batting": {
+      "contact": 12,
+      "power": 49,
+      "eye": 38,
+      "speed": 41
+     },
+     "fielding": {
+      "range": 47,
+      "arm": 50,
+      "hands": 41
+     }
+    },
+    {
+     "id": "npb-d-66",
+     "name": "鵜飼 航丞",
+     "number": "66",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "LF",
+      "RF"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 31,
+      "power": 47,
+      "eye": 33,
+      "speed": 42
+     },
+     "fielding": {
+      "range": 45,
+      "arm": 47,
+      "hands": 47
+     }
+    },
+    {
+     "id": "npb-d-57",
+     "name": "花田 旭",
+     "number": "57",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "LF",
+      "CF",
+      "RF"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 33,
+      "power": 49,
+      "eye": 33,
+      "speed": 54
+     },
+     "fielding": {
+      "range": 55,
+      "arm": 41,
+      "hands": 58
+     }
+    },
+    {
+     "id": "npb-d-48",
+     "name": "阿部 寿樹",
+     "number": "48",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "1B"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 38,
+      "power": 45,
+      "eye": 62,
+      "speed": 39
+     },
+     "fielding": {
+      "range": 54,
+      "arm": 50,
+      "hands": 58
+     }
+    },
+    {
+     "id": "npb-d-3",
+     "name": "高橋 周平",
+     "number": "3",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "3B",
+      "1B"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 34,
+      "power": 35,
+      "eye": 49,
+      "speed": 39
+     },
+     "fielding": {
+      "range": 49,
+      "arm": 50,
+      "hands": 56
+     }
+    }
+   ],
+   "lineup": {
+    "order": [
+     {
+      "playerId": "npb-d-5",
+      "position": "SS"
+     },
+     {
+      "playerId": "npb-d-2",
+      "position": "DH"
+     },
+     {
+      "playerId": "npb-d-7",
+      "position": "2B"
+     },
+     {
+      "playerId": "npb-d-23",
+      "position": "1B"
+     },
+     {
+      "playerId": "npb-d-55",
+      "position": "CF"
+     },
+     {
+      "playerId": "npb-d-25",
+      "position": "3B"
+     },
+     {
+      "playerId": "npb-d-63",
+      "position": "LF"
+     },
+     {
+      "playerId": "npb-d-9",
+      "position": "C"
+     },
+     {
+      "playerId": "npb-d-1",
+      "position": "RF"
+     }
+    ],
+    "startingPitcherId": "npb-d-19",
+    "bullpen": [
+     "npb-d-54",
+     "npb-d-68",
+     "npb-d-47",
+     "npb-d-28",
+     "npb-d-14",
+     "npb-d-32",
+     "npb-d-13",
+     "npb-d-59",
+     "npb-d-90"
+    ],
+    "benchOut": [
+     "npb-d-21",
+     "npb-d-20",
+     "npb-d-93",
+     "npb-d-17",
+     "npb-d-22"
+    ]
+   }
+  },
+  {
+   "id": "npb-h",
+   "name": "福岡ソフトバンクホークス",
+   "shortName": "ソフトバンク",
+   "league": "pacific",
+   "color": "#c79a00",
+   "roster": [
+    {
+     "id": "npb-h-19",
+     "name": "大津 亮介",
+     "number": "19",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 92,
+      "arm": 50,
+      "hands": 53
+     },
+     "pitching": {
+      "stuff": 37,
+      "control": 73,
+      "stamina": 94
+     }
+    },
+    {
+     "id": "npb-h-10",
+     "name": "上沢 直之",
+     "number": "10",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 89,
+      "arm": 50,
+      "hands": 53
+     },
+     "pitching": {
+      "stuff": 55,
+      "control": 63,
+      "stamina": 89
+     }
+    },
+    {
+     "id": "npb-h-49",
+     "name": "松本 晴",
+     "number": "49",
+     "bats": "L",
+     "throws": "L",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 99,
+      "arm": 50,
+      "hands": 53
+     },
+     "pitching": {
+      "stuff": 61,
+      "control": 38,
+      "stamina": 83
+     }
+    },
+    {
+     "id": "npb-h-41",
+     "name": "前田 悠伍",
+     "number": "41",
+     "bats": "L",
+     "throws": "L",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 78,
+      "arm": 50,
+      "hands": 52
+     },
+     "pitching": {
+      "stuff": 49,
+      "control": 59,
+      "stamina": 86
+     }
+    },
+    {
+     "id": "npb-h-2",
+     "name": "スチュワート・ジュニア",
+     "number": "2",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": true,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 90,
+      "arm": 50,
+      "hands": 49
+     },
+     "pitching": {
+      "stuff": 43,
+      "control": 32,
+      "stamina": 70
+     }
+    },
+    {
+     "id": "npb-h-47",
+     "name": "大関 友久",
+     "number": "47",
+     "bats": "L",
+     "throws": "L",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 82,
+      "arm": 50,
+      "hands": 51
+     },
+     "pitching": {
+      "stuff": 19,
+      "control": 50,
+      "stamina": 84
+     }
+    },
+    {
+     "id": "npb-h-66",
+     "name": "松本 裕樹",
+     "number": "66",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 49,
+      "arm": 50,
+      "hands": 54
+     },
+     "pitching": {
+      "stuff": 55,
+      "control": 73,
+      "stamina": 27
+     }
+    },
+    {
+     "id": "npb-h-40",
+     "name": "杉山 一樹",
+     "number": "40",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 41,
+      "arm": 50,
+      "hands": 40
+     },
+     "pitching": {
+      "stuff": 93,
+      "control": 39,
+      "stamina": 27
+     }
+    },
+    {
+     "id": "npb-h-11",
+     "name": "津森 宥紀",
+     "number": "11",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 38,
+      "arm": 50,
+      "hands": 54
+     },
+     "pitching": {
+      "stuff": 60,
+      "control": 46,
+      "stamina": 26
+     }
+    },
+    {
+     "id": "npb-h-54",
+     "name": "オスナ",
+     "number": "54",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": true,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 45,
+      "arm": 50,
+      "hands": 54
+     },
+     "pitching": {
+      "stuff": 57,
+      "control": 57,
+      "stamina": 27
+     }
+    },
+    {
+     "id": "npb-h-63",
+     "name": "ヘルナンデス",
+     "number": "63",
+     "bats": "L",
+     "throws": "L",
+     "positions": [
+      "P"
+     ],
+     "foreign": true,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 43,
+      "arm": 50,
+      "hands": 54
+     },
+     "pitching": {
+      "stuff": 73,
+      "control": 34,
+      "stamina": 26
+     }
+    },
+    {
+     "id": "npb-h-26",
+     "name": "鈴木 豪太",
+     "number": "26",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 58,
+      "arm": 50,
+      "hands": 47
+     },
+     "pitching": {
+      "stuff": 55,
+      "control": 63,
+      "stamina": 29
+     }
+    },
+    {
+     "id": "npb-h-68",
+     "name": "木村 光",
+     "number": "68",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 57,
+      "arm": 50,
+      "hands": 53
+     },
+     "pitching": {
+      "stuff": 31,
+      "control": 39,
+      "stamina": 26
+     }
+    },
+    {
+     "id": "npb-h-64",
+     "name": "上茶谷 大河",
+     "number": "64",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 74,
+      "arm": 50,
+      "hands": 53
+     },
+     "pitching": {
+      "stuff": 40,
+      "control": 48,
+      "stamina": 45
+     }
+    },
+    {
+     "id": "npb-h-42",
+     "name": "伊藤 優輔",
+     "number": "42",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 52,
+      "arm": 50,
+      "hands": 53
+     },
+     "pitching": {
+      "stuff": 51,
+      "control": 27,
+      "stamina": 28
+     }
+    },
+    {
+     "id": "npb-h-62",
+     "name": "海野 隆司",
+     "number": "62",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "C"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 19,
+      "power": 35,
+      "eye": 43,
+      "speed": 41
+     },
+     "fielding": {
+      "range": 58,
+      "arm": 57,
+      "hands": 61
+     }
+    },
+    {
+     "id": "npb-h-39",
+     "name": "山本 祐大",
+     "number": "39",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "C"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 51,
+      "power": 51,
+      "eye": 37,
+      "speed": 47
+     },
+     "fielding": {
+      "range": 57,
+      "arm": 46,
+      "hands": 46
+     }
+    },
+    {
+     "id": "npb-h-25",
+     "name": "庄子 雄大",
+     "number": "25",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "SS",
+      "2B"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 36,
+      "power": 33,
+      "eye": 45,
+      "speed": 96
+     },
+     "fielding": {
+      "range": 46,
+      "arm": 50,
+      "hands": 52
+     }
+    },
+    {
+     "id": "npb-h-8",
+     "name": "牧原 大成",
+     "number": "8",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "2B",
+      "LF",
+      "CF",
+      "RF"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 71,
+      "power": 38,
+      "eye": 31,
+      "speed": 57
+     },
+     "fielding": {
+      "range": 52,
+      "arm": 51,
+      "hands": 57
+     }
+    },
+    {
+     "id": "npb-h-24",
+     "name": "栗原 陵矢",
+     "number": "24",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "3B",
+      "1B"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 57,
+      "power": 86,
+      "eye": 76,
+      "speed": 43
+     },
+     "fielding": {
+      "range": 49,
+      "arm": 50,
+      "hands": 49
+     }
+    },
+    {
+     "id": "npb-h-31",
+     "name": "正木 智也",
+     "number": "31",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "1B",
+      "LF",
+      "RF"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 57,
+      "power": 75,
+      "eye": 74,
+      "speed": 39
+     },
+     "fielding": {
+      "range": 48,
+      "arm": 40,
+      "hands": 52
+     }
+    },
+    {
+     "id": "npb-h-23",
+     "name": "周東 佑京",
+     "number": "23",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "LF",
+      "CF",
+      "RF"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 65,
+      "power": 37,
+      "eye": 49,
+      "speed": 92
+     },
+     "fielding": {
+      "range": 76,
+      "arm": 51,
+      "hands": 61
+     }
+    },
+    {
+     "id": "npb-h-61",
+     "name": "川村 友斗",
+     "number": "61",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "LF",
+      "RF"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 23,
+      "power": 38,
+      "eye": 38,
+      "speed": 53
+     },
+     "fielding": {
+      "range": 23,
+      "arm": 42,
+      "hands": 61
+     }
+    },
+    {
+     "id": "npb-h-3",
+     "name": "近藤 健介",
+     "number": "3",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "LF",
+      "CF",
+      "RF"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 78,
+      "power": 78,
+      "eye": 97,
+      "speed": 44
+     },
+     "fielding": {
+      "range": 57,
+      "arm": 46,
+      "hands": 46
+     }
+    },
+    {
+     "id": "npb-h-45",
+     "name": "谷川原 健太",
+     "number": "45",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "LF",
+      "RF",
+      "C"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 30,
+      "power": 39,
+      "eye": 36,
+      "speed": 46
+     },
+     "fielding": {
+      "range": 27,
+      "arm": 51,
+      "hands": 38
+     }
+    },
+    {
+     "id": "npb-h-9",
+     "name": "柳田 悠岐",
+     "number": "9",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "LF",
+      "RF"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 71,
+      "power": 60,
+      "eye": 35,
+      "speed": 36
+     },
+     "fielding": {
+      "range": 47,
+      "arm": 42,
+      "hands": 56
+     }
+    },
+    {
+     "id": "npb-h-32",
+     "name": "柳町 達",
+     "number": "32",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "LF",
+      "CF",
+      "RF"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 47,
+      "power": 41,
+      "eye": 58,
+      "speed": 48
+     },
+     "fielding": {
+      "range": 54,
+      "arm": 39,
+      "hands": 47
+     }
+    },
+    {
+     "id": "npb-h-5",
+     "name": "山川 穂高",
+     "number": "5",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "1B"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 12,
+      "power": 60,
+      "eye": 72,
+      "speed": 38
+     },
+     "fielding": {
+      "range": 50,
+      "arm": 50,
+      "hands": 32
+     }
+    },
+    {
+     "id": "npb-h-0",
+     "name": "川瀬 晃",
+     "number": "0",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "SS",
+      "2B",
+      "3B",
+      "1B"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 34,
+      "power": 36,
+      "eye": 47,
+      "speed": 50
+     },
+     "fielding": {
+      "range": 44,
+      "arm": 50,
+      "hands": 61
+     }
+    },
+    {
+     "id": "npb-h-6",
+     "name": "今宮 健太",
+     "number": "6",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "SS",
+      "2B",
+      "3B"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 39,
+      "power": 39,
+      "eye": 39,
+      "speed": 38
+     },
+     "fielding": {
+      "range": 51,
+      "arm": 50,
+      "hands": 49
+     }
+    },
+    {
+     "id": "npb-h-99",
+     "name": "野村 勇",
+     "number": "99",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "3B",
+      "SS",
+      "2B"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 27,
+      "power": 51,
+      "eye": 40,
+      "speed": 54
+     },
+     "fielding": {
+      "range": 42,
+      "arm": 50,
+      "hands": 41
+     }
+    }
+   ],
+   "lineup": {
+    "order": [
+     {
+      "playerId": "npb-h-23",
+      "position": "LF"
+     },
+     {
+      "playerId": "npb-h-8",
+      "position": "2B"
+     },
+     {
+      "playerId": "npb-h-24",
+      "position": "3B"
+     },
+     {
+      "playerId": "npb-h-3",
+      "position": "CF"
+     },
+     {
+      "playerId": "npb-h-31",
+      "position": "RF"
+     },
+     {
+      "playerId": "npb-h-9",
+      "position": "DH"
+     },
+     {
+      "playerId": "npb-h-39",
+      "position": "C"
+     },
+     {
+      "playerId": "npb-h-25",
+      "position": "SS"
+     },
+     {
+      "playerId": "npb-h-5",
+      "position": "1B"
+     }
+    ],
+    "startingPitcherId": "npb-h-10",
+    "bullpen": [
+     "npb-h-68",
+     "npb-h-42",
+     "npb-h-64",
+     "npb-h-11",
+     "npb-h-63",
+     "npb-h-54",
+     "npb-h-26",
+     "npb-h-66",
+     "npb-h-40"
+    ],
+    "benchOut": [
+     "npb-h-19",
+     "npb-h-41",
+     "npb-h-49",
+     "npb-h-2",
+     "npb-h-47"
+    ]
+   }
+  },
+  {
+   "id": "npb-f",
+   "name": "北海道日本ハムファイターズ",
+   "shortName": "日本ハム",
+   "league": "pacific",
+   "color": "#006298",
+   "roster": [
+    {
+     "id": "npb-f-15",
+     "name": "北山 亘基",
+     "number": "15",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 99,
+      "arm": 50,
+      "hands": 47
+     },
+     "pitching": {
+      "stuff": 57,
+      "control": 61,
+      "stamina": 89
+     }
+    },
+    {
+     "id": "npb-f-16",
+     "name": "達 孝太",
+     "number": "16",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 99,
+      "arm": 50,
+      "hands": 51
+     },
+     "pitching": {
+      "stuff": 61,
+      "control": 60,
+      "stamina": 70
+     }
+    },
+    {
+     "id": "npb-f-14",
+     "name": "加藤 貴之",
+     "number": "14",
+     "bats": "L",
+     "throws": "L",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 86,
+      "arm": 50,
+      "hands": 52
+     },
+     "pitching": {
+      "stuff": 18,
+      "control": 89,
+      "stamina": 84
+     }
+    },
+    {
+     "id": "npb-f-74",
+     "name": "有原 航平",
+     "number": "74",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 99,
+      "arm": 50,
+      "hands": 52
+     },
+     "pitching": {
+      "stuff": 28,
+      "control": 60,
+      "stamina": 88
+     }
+    },
+    {
+     "id": "npb-f-29",
+     "name": "細野 晴希",
+     "number": "29",
+     "bats": "L",
+     "throws": "L",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 99,
+      "arm": 50,
+      "hands": 48
+     },
+     "pitching": {
+      "stuff": 67,
+      "control": 46,
+      "stamina": 89
+     }
+    },
+    {
+     "id": "npb-f-18",
+     "name": "山﨑 福也",
+     "number": "18",
+     "bats": "L",
+     "throws": "L",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 99,
+      "arm": 50,
+      "hands": 52
+     },
+     "pitching": {
+      "stuff": 22,
+      "control": 48,
+      "stamina": 58
+     }
+    },
+    {
+     "id": "npb-f-47",
+     "name": "柳川 大晟",
+     "number": "47",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 50,
+      "arm": 50,
+      "hands": 46
+     },
+     "pitching": {
+      "stuff": 75,
+      "control": 39,
+      "stamina": 27
+     }
+    },
+    {
+     "id": "npb-f-40",
+     "name": "島本 浩也",
+     "number": "40",
+     "bats": "L",
+     "throws": "L",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 45,
+      "arm": 50,
+      "hands": 54
+     },
+     "pitching": {
+      "stuff": 35,
+      "control": 51,
+      "stamina": 25
+     }
+    },
+    {
+     "id": "npb-f-34",
+     "name": "堀 瑞輝",
+     "number": "34",
+     "bats": "L",
+     "throws": "L",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 46,
+      "arm": 50,
+      "hands": 54
+     },
+     "pitching": {
+      "stuff": 85,
+      "control": 62,
+      "stamina": 25
+     }
+    },
+    {
+     "id": "npb-f-20",
+     "name": "上原 健太",
+     "number": "20",
+     "bats": "L",
+     "throws": "L",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 51,
+      "arm": 50,
+      "hands": 54
+     },
+     "pitching": {
+      "stuff": 36,
+      "control": 51,
+      "stamina": 26
+     }
+    },
+    {
+     "id": "npb-f-26",
+     "name": "田中 正義",
+     "number": "26",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 49,
+      "arm": 50,
+      "hands": 54
+     },
+     "pitching": {
+      "stuff": 56,
+      "control": 53,
+      "stamina": 26
+     }
+    },
+    {
+     "id": "npb-f-45",
+     "name": "福島 蓮",
+     "number": "45",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 66,
+      "arm": 50,
+      "hands": 53
+     },
+     "pitching": {
+      "stuff": 58,
+      "control": 56,
+      "stamina": 51
+     }
+    },
+    {
+     "id": "npb-f-96",
+     "name": "孫 易磊",
+     "number": "96",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 44,
+      "arm": 50,
+      "hands": 53
+     },
+     "pitching": {
+      "stuff": 58,
+      "control": 41,
+      "stamina": 32
+     }
+    },
+    {
+     "id": "npb-f-48",
+     "name": "齋藤 友貴哉",
+     "number": "48",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 43,
+      "arm": 50,
+      "hands": 52
+     },
+     "pitching": {
+      "stuff": 38,
+      "control": 34,
+      "stamina": 25
+     }
+    },
+    {
+     "id": "npb-f-24",
+     "name": "金村 尚真",
+     "number": "24",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 60,
+      "arm": 50,
+      "hands": 52
+     },
+     "pitching": {
+      "stuff": 36,
+      "control": 49,
+      "stamina": 34
+     }
+    },
+    {
+     "id": "npb-f-64",
+     "name": "田宮 裕涼",
+     "number": "64",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "C"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 51,
+      "power": 49,
+      "eye": 21,
+      "speed": 63
+     },
+     "fielding": {
+      "range": 52,
+      "arm": 45,
+      "hands": 41
+     }
+    },
+    {
+     "id": "npb-f-33",
+     "name": "進藤 勇也",
+     "number": "33",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "C"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 26,
+      "power": 61,
+      "eye": 42,
+      "speed": 51
+     },
+     "fielding": {
+      "range": 45,
+      "arm": 44,
+      "hands": 60
+     }
+    },
+    {
+     "id": "npb-f-43",
+     "name": "水野 達稀",
+     "number": "43",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "SS",
+      "2B"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 68,
+      "power": 51,
+      "eye": 40,
+      "speed": 75
+     },
+     "fielding": {
+      "range": 56,
+      "arm": 50,
+      "hands": 47
+     }
+    },
+    {
+     "id": "npb-f-58",
+     "name": "奈良間 大己",
+     "number": "58",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "2B",
+      "3B",
+      "SS"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 36,
+      "power": 45,
+      "eye": 44,
+      "speed": 57
+     },
+     "fielding": {
+      "range": 42,
+      "arm": 50,
+      "hands": 49
+     }
+    },
+    {
+     "id": "npb-f-3",
+     "name": "郡司 裕也",
+     "number": "3",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "3B",
+      "LF",
+      "CF",
+      "RF",
+      "C",
+      "1B"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 51,
+      "power": 44,
+      "eye": 77,
+      "speed": 37
+     },
+     "fielding": {
+      "range": 54,
+      "arm": 47,
+      "hands": 43
+     }
+    },
+    {
+     "id": "npb-f-21",
+     "name": "清宮 幸太郎",
+     "number": "21",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "1B",
+      "LF",
+      "CF",
+      "RF",
+      "3B"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 40,
+      "power": 64,
+      "eye": 66,
+      "speed": 45
+     },
+     "fielding": {
+      "range": 55,
+      "arm": 48,
+      "hands": 29
+     }
+    },
+    {
+     "id": "npb-f-66",
+     "name": "万波 中正",
+     "number": "66",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "LF",
+      "RF"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 41,
+      "power": 64,
+      "eye": 46,
+      "speed": 40
+     },
+     "fielding": {
+      "range": 49,
+      "arm": 64,
+      "hands": 40
+     }
+    },
+    {
+     "id": "npb-f-50",
+     "name": "五十幡 亮汰",
+     "number": "50",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "LF",
+      "RF"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 34,
+      "power": 36,
+      "eye": 28,
+      "speed": 92
+     },
+     "fielding": {
+      "range": 44,
+      "arm": 38,
+      "hands": 60
+     }
+    },
+    {
+     "id": "npb-f-56",
+     "name": "細川 凌平",
+     "number": "56",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "LF",
+      "RF",
+      "2B",
+      "1B",
+      "3B"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 41,
+      "power": 40,
+      "eye": 60,
+      "speed": 65
+     },
+     "fielding": {
+      "range": 40,
+      "arm": 45,
+      "hands": 47
+     }
+    },
+    {
+     "id": "npb-f-99",
+     "name": "レイエス",
+     "number": "99",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "1B"
+     ],
+     "foreign": true,
+     "batting": {
+      "contact": 75,
+      "power": 79,
+      "eye": 41,
+      "speed": 36
+     },
+     "fielding": {
+      "range": 52,
+      "arm": 50,
+      "hands": 54
+     }
+    },
+    {
+     "id": "npb-f-5",
+     "name": "野村 佑希",
+     "number": "5",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "LF",
+      "CF",
+      "RF",
+      "3B",
+      "1B",
+      "2B"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 45,
+      "power": 58,
+      "eye": 30,
+      "speed": 43
+     },
+     "fielding": {
+      "range": 51,
+      "arm": 45,
+      "hands": 49
+     }
+    },
+    {
+     "id": "npb-f-6",
+     "name": "カストロ",
+     "number": "6",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "LF",
+      "RF",
+      "2B",
+      "3B"
+     ],
+     "foreign": true,
+     "batting": {
+      "contact": 26,
+      "power": 52,
+      "eye": 45,
+      "speed": 53
+     },
+     "fielding": {
+      "range": 49,
+      "arm": 47,
+      "hands": 46
+     }
+    },
+    {
+     "id": "npb-f-53",
+     "name": "水谷 瞬",
+     "number": "53",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "LF",
+      "CF",
+      "RF"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 34,
+      "power": 49,
+      "eye": 38,
+      "speed": 50
+     },
+     "fielding": {
+      "range": 50,
+      "arm": 46,
+      "hands": 59
+     }
+    },
+    {
+     "id": "npb-f-49",
+     "name": "大塚 瑠晏",
+     "number": "49",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "2B",
+      "3B",
+      "SS"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 10,
+      "power": 53,
+      "eye": 50,
+      "speed": 44
+     },
+     "fielding": {
+      "range": 42,
+      "arm": 50,
+      "hands": 51
+     }
+    },
+    {
+     "id": "npb-f-60",
+     "name": "吉田 賢吾",
+     "number": "60",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "LF",
+      "RF",
+      "1B"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 47,
+      "power": 63,
+      "eye": 25,
+      "speed": 53
+     },
+     "fielding": {
+      "range": 44,
+      "arm": 43,
+      "hands": 56
+     }
+    },
+    {
+     "id": "npb-f-39",
+     "name": "有薗 直輝",
+     "number": "39",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "3B"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 23,
+      "power": 41,
+      "eye": 58,
+      "speed": 46
+     },
+     "fielding": {
+      "range": 48,
+      "arm": 50,
+      "hands": 46
+     }
+    }
+   ],
+   "lineup": {
+    "order": [
+     {
+      "playerId": "npb-f-56",
+      "position": "3B"
+     },
+     {
+      "playerId": "npb-f-3",
+      "position": "C"
+     },
+     {
+      "playerId": "npb-f-43",
+      "position": "SS"
+     },
+     {
+      "playerId": "npb-f-99",
+      "position": "1B"
+     },
+     {
+      "playerId": "npb-f-21",
+      "position": "CF"
+     },
+     {
+      "playerId": "npb-f-60",
+      "position": "LF"
+     },
+     {
+      "playerId": "npb-f-66",
+      "position": "RF"
+     },
+     {
+      "playerId": "npb-f-5",
+      "position": "2B"
+     },
+     {
+      "playerId": "npb-f-64",
+      "position": "DH"
+     }
+    ],
+    "startingPitcherId": "npb-f-16",
+    "bullpen": [
+     "npb-f-48",
+     "npb-f-24",
+     "npb-f-40",
+     "npb-f-20",
+     "npb-f-96",
+     "npb-f-26",
+     "npb-f-47",
+     "npb-f-34"
+    ],
+    "benchOut": [
+     "npb-f-15",
+     "npb-f-45",
+     "npb-f-29",
+     "npb-f-14",
+     "npb-f-74"
+    ]
+   }
+  },
+  {
+   "id": "npb-m",
+   "name": "千葉ロッテマリーンズ",
+   "shortName": "ロッテ",
+   "league": "pacific",
+   "color": "#333333",
+   "roster": [
+    {
+     "id": "npb-m-42",
+     "name": "ジャクソン",
+     "number": "42",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": true,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 89,
+      "arm": 50,
+      "hands": 47
+     },
+     "pitching": {
+      "stuff": 52,
+      "control": 29,
+      "stamina": 87
+     }
+    },
+    {
+     "id": "npb-m-14",
+     "name": "小島 和哉",
+     "number": "14",
+     "bats": "L",
+     "throws": "L",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 89,
+      "arm": 50,
+      "hands": 52
+     },
+     "pitching": {
+      "stuff": 38,
+      "control": 41,
+      "stamina": 85
+     }
+    },
+    {
+     "id": "npb-m-35",
+     "name": "田中 晴也",
+     "number": "35",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 74,
+      "arm": 50,
+      "hands": 52
+     },
+     "pitching": {
+      "stuff": 49,
+      "control": 50,
+      "stamina": 82
+     }
+    },
+    {
+     "id": "npb-m-64",
+     "name": "廣池 康志郎",
+     "number": "64",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 63,
+      "arm": 50,
+      "hands": 52
+     },
+     "pitching": {
+      "stuff": 28,
+      "control": 54,
+      "stamina": 79
+     }
+    },
+    {
+     "id": "npb-m-13",
+     "name": "毛利 海大",
+     "number": "13",
+     "bats": "L",
+     "throws": "L",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 77,
+      "arm": 50,
+      "hands": 49
+     },
+     "pitching": {
+      "stuff": 24,
+      "control": 49,
+      "stamina": 72
+     }
+    },
+    {
+     "id": "npb-m-58",
+     "name": "河村 説人",
+     "number": "58",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 58,
+      "arm": 50,
+      "hands": 51
+     },
+     "pitching": {
+      "stuff": 14,
+      "control": 61,
+      "stamina": 80
+     }
+    },
+    {
+     "id": "npb-m-15",
+     "name": "横山 陸人",
+     "number": "15",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 55,
+      "arm": 50,
+      "hands": 54
+     },
+     "pitching": {
+      "stuff": 40,
+      "control": 41,
+      "stamina": 27
+     }
+    },
+    {
+     "id": "npb-m-47",
+     "name": "鈴木 昭汰",
+     "number": "47",
+     "bats": "L",
+     "throws": "L",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 55,
+      "arm": 50,
+      "hands": 48
+     },
+     "pitching": {
+      "stuff": 47,
+      "control": 68,
+      "stamina": 26
+     }
+    },
+    {
+     "id": "npb-m-33",
+     "name": "八木 彬",
+     "number": "33",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 53,
+      "arm": 50,
+      "hands": 54
+     },
+     "pitching": {
+      "stuff": 43,
+      "control": 57,
+      "stamina": 31
+     }
+    },
+    {
+     "id": "npb-m-54",
+     "name": "澤田 圭佑",
+     "number": "54",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 51,
+      "arm": 50,
+      "hands": 54
+     },
+     "pitching": {
+      "stuff": 44,
+      "control": 71,
+      "stamina": 27
+     }
+    },
+    {
+     "id": "npb-m-56",
+     "name": "中森 俊介",
+     "number": "56",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 48,
+      "arm": 50,
+      "hands": 54
+     },
+     "pitching": {
+      "stuff": 52,
+      "control": 58,
+      "stamina": 27
+     }
+    },
+    {
+     "id": "npb-m-37",
+     "name": "小野 郁",
+     "number": "37",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 42,
+      "arm": 50,
+      "hands": 54
+     },
+     "pitching": {
+      "stuff": 52,
+      "control": 47,
+      "stamina": 28
+     }
+    },
+    {
+     "id": "npb-m-52",
+     "name": "益田 直也",
+     "number": "52",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 43,
+      "arm": 50,
+      "hands": 54
+     },
+     "pitching": {
+      "stuff": 32,
+      "control": 37,
+      "stamina": 27
+     }
+    },
+    {
+     "id": "npb-m-34",
+     "name": "高野 脩汰",
+     "number": "34",
+     "bats": "L",
+     "throws": "L",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 53,
+      "arm": 50,
+      "hands": 39
+     },
+     "pitching": {
+      "stuff": 51,
+      "control": 56,
+      "stamina": 40
+     }
+    },
+    {
+     "id": "npb-m-36",
+     "name": "坂本 光士郎",
+     "number": "36",
+     "bats": "L",
+     "throws": "L",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 47,
+      "arm": 50,
+      "hands": 53
+     },
+     "pitching": {
+      "stuff": 68,
+      "control": 27,
+      "stamina": 29
+     }
+    },
+    {
+     "id": "npb-m-32",
+     "name": "佐藤 都志也",
+     "number": "32",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "C",
+      "1B"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 33,
+      "power": 59,
+      "eye": 63,
+      "speed": 37
+     },
+     "fielding": {
+      "range": 48,
+      "arm": 55,
+      "hands": 44
+     }
+    },
+    {
+     "id": "npb-m-2",
+     "name": "松川 虎生",
+     "number": "2",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "C"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 23,
+      "power": 35,
+      "eye": 31,
+      "speed": 41
+     },
+     "fielding": {
+      "range": 34,
+      "arm": 42,
+      "hands": 59
+     }
+    },
+    {
+     "id": "npb-m-4",
+     "name": "友杉 篤輝",
+     "number": "4",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "SS"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 46,
+      "power": 30,
+      "eye": 30,
+      "speed": 51
+     },
+     "fielding": {
+      "range": 58,
+      "arm": 50,
+      "hands": 47
+     }
+    },
+    {
+     "id": "npb-m-57",
+     "name": "小川 龍成",
+     "number": "57",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "2B",
+      "SS"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 55,
+      "power": 32,
+      "eye": 26,
+      "speed": 62
+     },
+     "fielding": {
+      "range": 60,
+      "arm": 50,
+      "hands": 58
+     }
+    },
+    {
+     "id": "npb-m-65",
+     "name": "寺地 隆成",
+     "number": "65",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "3B",
+      "1B"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 38,
+      "power": 38,
+      "eye": 47,
+      "speed": 36
+     },
+     "fielding": {
+      "range": 54,
+      "arm": 49,
+      "hands": 52
+     }
+    },
+    {
+     "id": "npb-m-00",
+     "name": "池田 来翔",
+     "number": "00",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "1B",
+      "3B",
+      "2B"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 35,
+      "power": 39,
+      "eye": 28,
+      "speed": 60
+     },
+     "fielding": {
+      "range": 31,
+      "arm": 50,
+      "hands": 53
+     }
+    },
+    {
+     "id": "npb-m-6",
+     "name": "西川 史礁",
+     "number": "6",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "LF",
+      "CF",
+      "RF"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 66,
+      "power": 41,
+      "eye": 49,
+      "speed": 42
+     },
+     "fielding": {
+      "range": 68,
+      "arm": 40,
+      "hands": 49
+     }
+    },
+    {
+     "id": "npb-m-1",
+     "name": "藤原 恭大",
+     "number": "1",
+     "bats": "L",
+     "throws": "L",
+     "positions": [
+      "LF",
+      "CF",
+      "RF"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 47,
+      "power": 43,
+      "eye": 70,
+      "speed": 63
+     },
+     "fielding": {
+      "range": 63,
+      "arm": 66,
+      "hands": 61
+     }
+    },
+    {
+     "id": "npb-m-61",
+     "name": "山本 大斗",
+     "number": "61",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "LF",
+      "RF"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 27,
+      "power": 45,
+      "eye": 46,
+      "speed": 40
+     },
+     "fielding": {
+      "range": 41,
+      "arm": 39,
+      "hands": 40
+     }
+    },
+    {
+     "id": "npb-m-27",
+     "name": "田村 龍弘",
+     "number": "27",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "C"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 37,
+      "power": 42,
+      "eye": 42,
+      "speed": 42
+     },
+     "fielding": {
+      "range": 48,
+      "arm": 54,
+      "hands": 51
+     }
+    },
+    {
+     "id": "npb-m-51",
+     "name": "山口 航輝",
+     "number": "51",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "LF",
+      "CF",
+      "RF",
+      "1B"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 50,
+      "power": 94,
+      "eye": 41,
+      "speed": 40
+     },
+     "fielding": {
+      "range": 51,
+      "arm": 40,
+      "hands": 53
+     }
+    },
+    {
+     "id": "npb-m-99",
+     "name": "ソト",
+     "number": "99",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "1B"
+     ],
+     "foreign": true,
+     "batting": {
+      "contact": 25,
+      "power": 62,
+      "eye": 45,
+      "speed": 36
+     },
+     "fielding": {
+      "range": 49,
+      "arm": 50,
+      "hands": 54
+     }
+    },
+    {
+     "id": "npb-m-5",
+     "name": "安田 尚憲",
+     "number": "5",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "1B",
+      "3B"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 39,
+      "power": 50,
+      "eye": 37,
+      "speed": 37
+     },
+     "fielding": {
+      "range": 48,
+      "arm": 50,
+      "hands": 46
+     }
+    },
+    {
+     "id": "npb-m-10",
+     "name": "上田 希由翔",
+     "number": "10",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "1B",
+      "3B",
+      "2B"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 41,
+      "power": 56,
+      "eye": 39,
+      "speed": 39
+     },
+     "fielding": {
+      "range": 49,
+      "arm": 50,
+      "hands": 51
+     }
+    },
+    {
+     "id": "npb-m-38",
+     "name": "山﨑 剛",
+     "number": "38",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "SS",
+      "3B"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 26,
+      "power": 36,
+      "eye": 43,
+      "speed": 53
+     },
+     "fielding": {
+      "range": 46,
+      "arm": 50,
+      "hands": 57
+     }
+    },
+    {
+     "id": "npb-m-0",
+     "name": "髙部 瑛斗",
+     "number": "0",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "LF",
+      "CF",
+      "RF"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 39,
+      "power": 34,
+      "eye": 38,
+      "speed": 54
+     },
+     "fielding": {
+      "range": 63,
+      "arm": 41,
+      "hands": 51
+     }
+    }
+   ],
+   "lineup": {
+    "order": [
+     {
+      "playerId": "npb-m-1",
+      "position": "RF"
+     },
+     {
+      "playerId": "npb-m-57",
+      "position": "SS"
+     },
+     {
+      "playerId": "npb-m-6",
+      "position": "LF"
+     },
+     {
+      "playerId": "npb-m-51",
+      "position": "CF"
+     },
+     {
+      "playerId": "npb-m-32",
+      "position": "C"
+     },
+     {
+      "playerId": "npb-m-10",
+      "position": "2B"
+     },
+     {
+      "playerId": "npb-m-5",
+      "position": "3B"
+     },
+     {
+      "playerId": "npb-m-99",
+      "position": "1B"
+     },
+     {
+      "playerId": "npb-m-27",
+      "position": "DH"
+     }
+    ],
+    "startingPitcherId": "npb-m-35",
+    "bullpen": [
+     "npb-m-52",
+     "npb-m-15",
+     "npb-m-36",
+     "npb-m-37",
+     "npb-m-33",
+     "npb-m-34",
+     "npb-m-56",
+     "npb-m-47",
+     "npb-m-54"
+    ],
+    "benchOut": [
+     "npb-m-64",
+     "npb-m-42",
+     "npb-m-14",
+     "npb-m-58",
+     "npb-m-13"
+    ]
+   }
+  },
+  {
+   "id": "npb-e",
+   "name": "東北楽天ゴールデンイーグルス",
+   "shortName": "楽天",
+   "league": "pacific",
+   "color": "#860010",
+   "roster": [
+    {
+     "id": "npb-e-19",
+     "name": "荘司 康誠",
+     "number": "19",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 99,
+      "arm": 50,
+      "hands": 53
+     },
+     "pitching": {
+      "stuff": 63,
+      "control": 63,
+      "stamina": 91
+     }
+    },
+    {
+     "id": "npb-e-21",
+     "name": "早川 隆久",
+     "number": "21",
+     "bats": "L",
+     "throws": "L",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 80,
+      "arm": 50,
+      "hands": 49
+     },
+     "pitching": {
+      "stuff": 50,
+      "control": 64,
+      "stamina": 95
+     }
+    },
+    {
+     "id": "npb-e-17",
+     "name": "古謝 樹",
+     "number": "17",
+     "bats": "L",
+     "throws": "L",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 99,
+      "arm": 50,
+      "hands": 46
+     },
+     "pitching": {
+      "stuff": 56,
+      "control": 56,
+      "stamina": 87
+     }
+    },
+    {
+     "id": "npb-e-57",
+     "name": "瀧中 瞭太",
+     "number": "57",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 83,
+      "arm": 50,
+      "hands": 52
+     },
+     "pitching": {
+      "stuff": 17,
+      "control": 51,
+      "stamina": 81
+     }
+    },
+    {
+     "id": "npb-e-18",
+     "name": "前田 健太",
+     "number": "18",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 99,
+      "arm": 50,
+      "hands": 52
+     },
+     "pitching": {
+      "stuff": 55,
+      "control": 65,
+      "stamina": 84
+     }
+    },
+    {
+     "id": "npb-e-11",
+     "name": "岸 孝之",
+     "number": "11",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 71,
+      "arm": 50,
+      "hands": 52
+     },
+     "pitching": {
+      "stuff": 39,
+      "control": 61,
+      "stamina": 87
+     }
+    },
+    {
+     "id": "npb-e-46",
+     "name": "藤平 尚真",
+     "number": "46",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 36,
+      "arm": 50,
+      "hands": 54
+     },
+     "pitching": {
+      "stuff": 75,
+      "control": 66,
+      "stamina": 26
+     }
+    },
+    {
+     "id": "npb-e-41",
+     "name": "加治屋 蓮",
+     "number": "41",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 43,
+      "arm": 50,
+      "hands": 54
+     },
+     "pitching": {
+      "stuff": 49,
+      "control": 40,
+      "stamina": 26
+     }
+    },
+    {
+     "id": "npb-e-49",
+     "name": "西垣 雅矢",
+     "number": "49",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 53,
+      "arm": 50,
+      "hands": 54
+     },
+     "pitching": {
+      "stuff": 54,
+      "control": 33,
+      "stamina": 25
+     }
+    },
+    {
+     "id": "npb-e-45",
+     "name": "九谷 瑠",
+     "number": "45",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 58,
+      "arm": 50,
+      "hands": 42
+     },
+     "pitching": {
+      "stuff": 65,
+      "control": 41,
+      "stamina": 28
+     }
+    },
+    {
+     "id": "npb-e-71",
+     "name": "柴田 大地",
+     "number": "71",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 41,
+      "arm": 50,
+      "hands": 53
+     },
+     "pitching": {
+      "stuff": 47,
+      "control": 10,
+      "stamina": 24
+     }
+    },
+    {
+     "id": "npb-e-56",
+     "name": "鈴木 翔天",
+     "number": "56",
+     "bats": "L",
+     "throws": "L",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 52,
+      "arm": 50,
+      "hands": 44
+     },
+     "pitching": {
+      "stuff": 52,
+      "control": 36,
+      "stamina": 25
+     }
+    },
+    {
+     "id": "npb-e-59",
+     "name": "泰 勝利",
+     "number": "59",
+     "bats": "R",
+     "throws": "L",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 43,
+      "arm": 50,
+      "hands": 33
+     },
+     "pitching": {
+      "stuff": 64,
+      "control": 16,
+      "stamina": 26
+     }
+    },
+    {
+     "id": "npb-e-69",
+     "name": "内 星龍",
+     "number": "69",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 48,
+      "arm": 50,
+      "hands": 53
+     },
+     "pitching": {
+      "stuff": 41,
+      "control": 41,
+      "stamina": 30
+     }
+    },
+    {
+     "id": "npb-e-52",
+     "name": "津留﨑 大成",
+     "number": "52",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 46,
+      "arm": 50,
+      "hands": 53
+     },
+     "pitching": {
+      "stuff": 52,
+      "control": 37,
+      "stamina": 28
+     }
+    },
+    {
+     "id": "npb-e-2",
+     "name": "太田 光",
+     "number": "2",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "C"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 21,
+      "power": 36,
+      "eye": 38,
+      "speed": 38
+     },
+     "fielding": {
+      "range": 55,
+      "arm": 62,
+      "hands": 52
+     }
+    },
+    {
+     "id": "npb-e-65",
+     "name": "堀内 謙伍",
+     "number": "65",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "C"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 22,
+      "power": 38,
+      "eye": 61,
+      "speed": 42
+     },
+     "fielding": {
+      "range": 43,
+      "arm": 48,
+      "hands": 59
+     }
+    },
+    {
+     "id": "npb-e-6",
+     "name": "村林 一輝",
+     "number": "6",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "SS",
+      "2B",
+      "3B"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 57,
+      "power": 35,
+      "eye": 39,
+      "speed": 53
+     },
+     "fielding": {
+      "range": 52,
+      "arm": 50,
+      "hands": 46
+     }
+    },
+    {
+     "id": "npb-e-0",
+     "name": "小深田 大翔",
+     "number": "0",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "2B"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 29,
+      "power": 35,
+      "eye": 37,
+      "speed": 78
+     },
+     "fielding": {
+      "range": 37,
+      "arm": 49,
+      "hands": 58
+     }
+    },
+    {
+     "id": "npb-e-48",
+     "name": "平良 竜哉",
+     "number": "48",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "3B",
+      "LF",
+      "RF",
+      "2B"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 45,
+      "power": 52,
+      "eye": 32,
+      "speed": 66
+     },
+     "fielding": {
+      "range": 46,
+      "arm": 56,
+      "hands": 55
+     }
+    },
+    {
+     "id": "npb-e-3",
+     "name": "浅村 栄斗",
+     "number": "3",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "1B"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 29,
+      "power": 48,
+      "eye": 68,
+      "speed": 39
+     },
+     "fielding": {
+      "range": 53,
+      "arm": 50,
+      "hands": 58
+     }
+    },
+    {
+     "id": "npb-e-8",
+     "name": "辰己 涼介",
+     "number": "8",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "LF",
+      "CF",
+      "RF"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 48,
+      "power": 51,
+      "eye": 59,
+      "speed": 60
+     },
+     "fielding": {
+      "range": 70,
+      "arm": 57,
+      "hands": 55
+     }
+    },
+    {
+     "id": "npb-e-32",
+     "name": "中島 大輔",
+     "number": "32",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "LF",
+      "CF",
+      "RF"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 68,
+      "power": 41,
+      "eye": 45,
+      "speed": 63
+     },
+     "fielding": {
+      "range": 57,
+      "arm": 59,
+      "hands": 53
+     }
+    },
+    {
+     "id": "npb-e-38",
+     "name": "佐藤 直樹",
+     "number": "38",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "LF",
+      "CF",
+      "RF"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 30,
+      "power": 50,
+      "eye": 23,
+      "speed": 51
+     },
+     "fielding": {
+      "range": 61,
+      "arm": 79,
+      "hands": 48
+     }
+    },
+    {
+     "id": "npb-e-27",
+     "name": "伊藤 光",
+     "number": "27",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "C"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 28,
+      "power": 43,
+      "eye": 47,
+      "speed": 41
+     },
+     "fielding": {
+      "range": 36,
+      "arm": 43,
+      "hands": 55
+     }
+    },
+    {
+     "id": "npb-e-24",
+     "name": "黒川 史陽",
+     "number": "24",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "3B",
+      "1B",
+      "2B"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 53,
+      "power": 36,
+      "eye": 53,
+      "speed": 42
+     },
+     "fielding": {
+      "range": 48,
+      "arm": 50,
+      "hands": 56
+     }
+    },
+    {
+     "id": "npb-e-34",
+     "name": "マッカスカー",
+     "number": "34",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "LF",
+      "CF",
+      "RF"
+     ],
+     "foreign": true,
+     "batting": {
+      "contact": 21,
+      "power": 74,
+      "eye": 55,
+      "speed": 43
+     },
+     "fielding": {
+      "range": 56,
+      "arm": 54,
+      "hands": 51
+     }
+    },
+    {
+     "id": "npb-e-1",
+     "name": "宗山 塁",
+     "number": "1",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "SS"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 65,
+      "power": 54,
+      "eye": 50,
+      "speed": 57
+     },
+     "fielding": {
+      "range": 58,
+      "arm": 50,
+      "hands": 55
+     }
+    },
+    {
+     "id": "npb-e-55",
+     "name": "YG安田",
+     "number": "55",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "1B",
+      "C"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 51,
+      "power": 52,
+      "eye": 39,
+      "speed": 41
+     },
+     "fielding": {
+      "range": 52,
+      "arm": 50,
+      "hands": 49
+     }
+    },
+    {
+     "id": "npb-e-51",
+     "name": "小郷 裕哉",
+     "number": "51",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "LF",
+      "RF"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 31,
+      "power": 37,
+      "eye": 43,
+      "speed": 70
+     },
+     "fielding": {
+      "range": 48,
+      "arm": 47,
+      "hands": 59
+     }
+    },
+    {
+     "id": "npb-e-35",
+     "name": "渡邊 佳明",
+     "number": "35",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "1B",
+      "LF",
+      "RF",
+      "3B"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 47,
+      "power": 37,
+      "eye": 43,
+      "speed": 38
+     },
+     "fielding": {
+      "range": 47,
+      "arm": 65,
+      "hands": 42
+     }
+    }
+   ],
+   "lineup": {
+    "order": [
+     {
+      "playerId": "npb-e-8",
+      "position": "CF"
+     },
+     {
+      "playerId": "npb-e-6",
+      "position": "3B"
+     },
+     {
+      "playerId": "npb-e-32",
+      "position": "RF"
+     },
+     {
+      "playerId": "npb-e-1",
+      "position": "SS"
+     },
+     {
+      "playerId": "npb-e-34",
+      "position": "LF"
+     },
+     {
+      "playerId": "npb-e-55",
+      "position": "C"
+     },
+     {
+      "playerId": "npb-e-48",
+      "position": "2B"
+     },
+     {
+      "playerId": "npb-e-24",
+      "position": "1B"
+     },
+     {
+      "playerId": "npb-e-3",
+      "position": "DH"
+     }
+    ],
+    "startingPitcherId": "npb-e-19",
+    "bullpen": [
+     "npb-e-71",
+     "npb-e-59",
+     "npb-e-69",
+     "npb-e-49",
+     "npb-e-56",
+     "npb-e-41",
+     "npb-e-52",
+     "npb-e-45",
+     "npb-e-46"
+    ],
+    "benchOut": [
+     "npb-e-18",
+     "npb-e-21",
+     "npb-e-17",
+     "npb-e-11",
+     "npb-e-57"
+    ]
+   }
+  },
+  {
+   "id": "npb-b",
+   "name": "オリックス・バファローズ",
+   "shortName": "オリックス",
+   "league": "pacific",
+   "color": "#b08d2e",
+   "roster": [
+    {
+     "id": "npb-b-22",
+     "name": "九里 亜蓮",
+     "number": "22",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 99,
+      "arm": 50,
+      "hands": 49
+     },
+     "pitching": {
+      "stuff": 53,
+      "control": 30,
+      "stamina": 88
+     }
+    },
+    {
+     "id": "npb-b-00",
+     "name": "エスピノーザ",
+     "number": "00",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": true,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 99,
+      "arm": 50,
+      "hands": 51
+     },
+     "pitching": {
+      "stuff": 58,
+      "control": 64,
+      "stamina": 93
+     }
+    },
+    {
+     "id": "npb-b-69",
+     "name": "ジェリー",
+     "number": "69",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": true,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 99,
+      "arm": 50,
+      "hands": 51
+     },
+     "pitching": {
+      "stuff": 48,
+      "control": 50,
+      "stamina": 79
+     }
+    },
+    {
+     "id": "npb-b-96",
+     "name": "髙島 泰都",
+     "number": "96",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 94,
+      "arm": 50,
+      "hands": 53
+     },
+     "pitching": {
+      "stuff": 28,
+      "control": 45,
+      "stamina": 67
+     }
+    },
+    {
+     "id": "npb-b-17",
+     "name": "曽谷 龍平",
+     "number": "17",
+     "bats": "L",
+     "throws": "L",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 64,
+      "arm": 50,
+      "hands": 52
+     },
+     "pitching": {
+      "stuff": 49,
+      "control": 61,
+      "stamina": 82
+     }
+    },
+    {
+     "id": "npb-b-29",
+     "name": "田嶋 大樹",
+     "number": "29",
+     "bats": "L",
+     "throws": "L",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 70,
+      "arm": 50,
+      "hands": 52
+     },
+     "pitching": {
+      "stuff": 24,
+      "control": 57,
+      "stamina": 57
+     }
+    },
+    {
+     "id": "npb-b-21",
+     "name": "山﨑 颯一郎",
+     "number": "21",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 49,
+      "arm": 50,
+      "hands": 54
+     },
+     "pitching": {
+      "stuff": 65,
+      "control": 56,
+      "stamina": 27
+     }
+    },
+    {
+     "id": "npb-b-42",
+     "name": "マチャド",
+     "number": "42",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": true,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 49,
+      "arm": 50,
+      "hands": 46
+     },
+     "pitching": {
+      "stuff": 54,
+      "control": 75,
+      "stamina": 27
+     }
+    },
+    {
+     "id": "npb-b-15",
+     "name": "椋木 蓮",
+     "number": "15",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 48,
+      "arm": 50,
+      "hands": 45
+     },
+     "pitching": {
+      "stuff": 47,
+      "control": 67,
+      "stamina": 27
+     }
+    },
+    {
+     "id": "npb-b-68",
+     "name": "入山 海斗",
+     "number": "68",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 52,
+      "arm": 50,
+      "hands": 54
+     },
+     "pitching": {
+      "stuff": 36,
+      "control": 29,
+      "stamina": 26
+     }
+    },
+    {
+     "id": "npb-b-49",
+     "name": "片山 楽生",
+     "number": "49",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 51,
+      "arm": 50,
+      "hands": 44
+     },
+     "pitching": {
+      "stuff": 28,
+      "control": 53,
+      "stamina": 32
+     }
+    },
+    {
+     "id": "npb-b-13",
+     "name": "寺西 成騎",
+     "number": "13",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 79,
+      "arm": 50,
+      "hands": 53
+     },
+     "pitching": {
+      "stuff": 47,
+      "control": 52,
+      "stamina": 39
+     }
+    },
+    {
+     "id": "npb-b-98",
+     "name": "権田 琉成",
+     "number": "98",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 45,
+      "arm": 50,
+      "hands": 38
+     },
+     "pitching": {
+      "stuff": 38,
+      "control": 55,
+      "stamina": 31
+     }
+    },
+    {
+     "id": "npb-b-23",
+     "name": "吉田 輝星",
+     "number": "23",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 53,
+      "arm": 50,
+      "hands": 53
+     },
+     "pitching": {
+      "stuff": 49,
+      "control": 49,
+      "stamina": 25
+     }
+    },
+    {
+     "id": "npb-b-40",
+     "name": "岩嵜 翔",
+     "number": "40",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 55,
+      "arm": 50,
+      "hands": 53
+     },
+     "pitching": {
+      "stuff": 34,
+      "control": 24,
+      "stamina": 26
+     }
+    },
+    {
+     "id": "npb-b-2",
+     "name": "若月 健矢",
+     "number": "2",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "C"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 35,
+      "power": 36,
+      "eye": 36,
+      "speed": 40
+     },
+     "fielding": {
+      "range": 51,
+      "arm": 63,
+      "hands": 44
+     }
+    },
+    {
+     "id": "npb-b-32",
+     "name": "福永 奨",
+     "number": "32",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "C"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 26,
+      "power": 44,
+      "eye": 36,
+      "speed": 41
+     },
+     "fielding": {
+      "range": 30,
+      "arm": 37,
+      "hands": 56
+     }
+    },
+    {
+     "id": "npb-b-24",
+     "name": "紅林 弘太郎",
+     "number": "24",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "SS"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 55,
+      "power": 58,
+      "eye": 55,
+      "speed": 40
+     },
+     "fielding": {
+      "range": 62,
+      "arm": 50,
+      "hands": 62
+     }
+    },
+    {
+     "id": "npb-b-1",
+     "name": "太田 椋",
+     "number": "1",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "2B",
+      "1B"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 59,
+      "power": 45,
+      "eye": 54,
+      "speed": 40
+     },
+     "fielding": {
+      "range": 56,
+      "arm": 50,
+      "hands": 45
+     }
+    },
+    {
+     "id": "npb-b-6",
+     "name": "宗 佑磨",
+     "number": "6",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "3B"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 48,
+      "power": 51,
+      "eye": 71,
+      "speed": 59
+     },
+     "fielding": {
+      "range": 63,
+      "arm": 50,
+      "hands": 58
+     }
+    },
+    {
+     "id": "npb-b-50",
+     "name": "山中 稜真",
+     "number": "50",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "1B",
+      "LF",
+      "CF",
+      "RF"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 56,
+      "power": 37,
+      "eye": 51,
+      "speed": 49
+     },
+     "fielding": {
+      "range": 55,
+      "arm": 52,
+      "hands": 53
+     }
+    },
+    {
+     "id": "npb-b-67",
+     "name": "中川 圭太",
+     "number": "67",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "LF",
+      "CF",
+      "RF"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 59,
+      "power": 40,
+      "eye": 47,
+      "speed": 46
+     },
+     "fielding": {
+      "range": 63,
+      "arm": 57,
+      "hands": 57
+     }
+    },
+    {
+     "id": "npb-b-38",
+     "name": "来田 涼斗",
+     "number": "38",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "LF",
+      "RF"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 49,
+      "power": 51,
+      "eye": 29,
+      "speed": 56
+     },
+     "fielding": {
+      "range": 47,
+      "arm": 42,
+      "hands": 42
+     }
+    },
+    {
+     "id": "npb-b-7",
+     "name": "西川 龍馬",
+     "number": "7",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "LF",
+      "CF",
+      "RF"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 63,
+      "power": 47,
+      "eye": 28,
+      "speed": 39
+     },
+     "fielding": {
+      "range": 56,
+      "arm": 61,
+      "hands": 45
+     }
+    },
+    {
+     "id": "npb-b-4",
+     "name": "森 友哉",
+     "number": "4",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "C"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 44,
+      "power": 49,
+      "eye": 55,
+      "speed": 39
+     },
+     "fielding": {
+      "range": 51,
+      "arm": 55,
+      "hands": 55
+     }
+    },
+    {
+     "id": "npb-b-0",
+     "name": "渡部 遼人",
+     "number": "0",
+     "bats": "L",
+     "throws": "L",
+     "positions": [
+      "LF",
+      "CF",
+      "RF"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 39,
+      "power": 38,
+      "eye": 55,
+      "speed": 88
+     },
+     "fielding": {
+      "range": 65,
+      "arm": 52,
+      "hands": 56
+     }
+    },
+    {
+     "id": "npb-b-9",
+     "name": "野口 智哉",
+     "number": "9",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "2B",
+      "SS",
+      "3B"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 26,
+      "power": 46,
+      "eye": 41,
+      "speed": 45
+     },
+     "fielding": {
+      "range": 40,
+      "arm": 50,
+      "hands": 50
+     }
+    },
+    {
+     "id": "npb-b-45",
+     "name": "シーモア",
+     "number": "45",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "1B"
+     ],
+     "foreign": true,
+     "batting": {
+      "contact": 10,
+      "power": 43,
+      "eye": 26,
+      "speed": 39
+     },
+     "fielding": {
+      "range": 53,
+      "arm": 50,
+      "hands": 60
+     }
+    },
+    {
+     "id": "npb-b-5",
+     "name": "西野 真弘",
+     "number": "5",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "2B",
+      "3B"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 43,
+      "power": 35,
+      "eye": 42,
+      "speed": 39
+     },
+     "fielding": {
+      "range": 48,
+      "arm": 50,
+      "hands": 56
+     }
+    },
+    {
+     "id": "npb-b-8",
+     "name": "麦谷 祐介",
+     "number": "8",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "LF",
+      "RF"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 10,
+      "power": 39,
+      "eye": 34,
+      "speed": 55
+     },
+     "fielding": {
+      "range": 40,
+      "arm": 48,
+      "hands": 58
+     }
+    },
+    {
+     "id": "npb-b-99",
+     "name": "杉本 裕太郎",
+     "number": "99",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "LF",
+      "CF",
+      "RF"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 20,
+      "power": 38,
+      "eye": 39,
+      "speed": 40
+     },
+     "fielding": {
+      "range": 50,
+      "arm": 49,
+      "hands": 51
+     }
+    }
+   ],
+   "lineup": {
+    "order": [
+     {
+      "playerId": "npb-b-50",
+      "position": "LF"
+     },
+     {
+      "playerId": "npb-b-1",
+      "position": "2B"
+     },
+     {
+      "playerId": "npb-b-6",
+      "position": "3B"
+     },
+     {
+      "playerId": "npb-b-24",
+      "position": "SS"
+     },
+     {
+      "playerId": "npb-b-38",
+      "position": "DH"
+     },
+     {
+      "playerId": "npb-b-7",
+      "position": "RF"
+     },
+     {
+      "playerId": "npb-b-67",
+      "position": "CF"
+     },
+     {
+      "playerId": "npb-b-4",
+      "position": "C"
+     },
+     {
+      "playerId": "npb-b-45",
+      "position": "1B"
+     }
+    ],
+    "startingPitcherId": "npb-b-00",
+    "bullpen": [
+     "npb-b-40",
+     "npb-b-68",
+     "npb-b-49",
+     "npb-b-98",
+     "npb-b-23",
+     "npb-b-13",
+     "npb-b-15",
+     "npb-b-21",
+     "npb-b-42"
+    ],
+    "benchOut": [
+     "npb-b-17",
+     "npb-b-69",
+     "npb-b-22",
+     "npb-b-29",
+     "npb-b-96"
+    ]
+   }
+  },
+  {
+   "id": "npb-l",
+   "name": "埼玉西武ライオンズ",
+   "shortName": "西武",
+   "league": "pacific",
+   "color": "#102961",
+   "roster": [
+    {
+     "id": "npb-l-16",
+     "name": "隅田 知一郎",
+     "number": "16",
+     "bats": "L",
+     "throws": "L",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 99,
+      "arm": 50,
+      "hands": 51
+     },
+     "pitching": {
+      "stuff": 59,
+      "control": 85,
+      "stamina": 95
+     }
+    },
+    {
+     "id": "npb-l-61",
+     "name": "平良 海馬",
+     "number": "61",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 99,
+      "arm": 50,
+      "hands": 53
+     },
+     "pitching": {
+      "stuff": 71,
+      "control": 45,
+      "stamina": 91
+     }
+    },
+    {
+     "id": "npb-l-21",
+     "name": "武内 夏暉",
+     "number": "21",
+     "bats": "L",
+     "throws": "L",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 99,
+      "arm": 50,
+      "hands": 53
+     },
+     "pitching": {
+      "stuff": 42,
+      "control": 72,
+      "stamina": 90
+     }
+    },
+    {
+     "id": "npb-l-13",
+     "name": "髙橋 光成",
+     "number": "13",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 99,
+      "arm": 50,
+      "hands": 50
+     },
+     "pitching": {
+      "stuff": 48,
+      "control": 45,
+      "stamina": 90
+     }
+    },
+    {
+     "id": "npb-l-12",
+     "name": "渡邉 勇太朗",
+     "number": "12",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 92,
+      "arm": 50,
+      "hands": 50
+     },
+     "pitching": {
+      "stuff": 43,
+      "control": 56,
+      "stamina": 91
+     }
+    },
+    {
+     "id": "npb-l-71",
+     "name": "菅井 信也",
+     "number": "71",
+     "bats": "L",
+     "throws": "L",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 54,
+      "arm": 50,
+      "hands": 51
+     },
+     "pitching": {
+      "stuff": 36,
+      "control": 45,
+      "stamina": 79
+     }
+    },
+    {
+     "id": "npb-l-34",
+     "name": "甲斐野 央",
+     "number": "34",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 59,
+      "arm": 50,
+      "hands": 54
+     },
+     "pitching": {
+      "stuff": 66,
+      "control": 22,
+      "stamina": 27
+     }
+    },
+    {
+     "id": "npb-l-52",
+     "name": "篠原 響",
+     "number": "52",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 51,
+      "arm": 50,
+      "hands": 54
+     },
+     "pitching": {
+      "stuff": 68,
+      "control": 40,
+      "stamina": 27
+     }
+    },
+    {
+     "id": "npb-l-19",
+     "name": "佐藤 隼輔",
+     "number": "19",
+     "bats": "L",
+     "throws": "L",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 44,
+      "arm": 50,
+      "hands": 39
+     },
+     "pitching": {
+      "stuff": 59,
+      "control": 64,
+      "stamina": 25
+     }
+    },
+    {
+     "id": "npb-l-70",
+     "name": "豆田 泰志",
+     "number": "70",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 50,
+      "arm": 50,
+      "hands": 53
+     },
+     "pitching": {
+      "stuff": 63,
+      "control": 47,
+      "stamina": 31
+     }
+    },
+    {
+     "id": "npb-l-20",
+     "name": "岩城 颯空",
+     "number": "20",
+     "bats": "L",
+     "throws": "L",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 46,
+      "arm": 50,
+      "hands": 53
+     },
+     "pitching": {
+      "stuff": 43,
+      "control": 37,
+      "stamina": 27
+     }
+    },
+    {
+     "id": "npb-l-57",
+     "name": "黒田 将矢",
+     "number": "57",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 39,
+      "arm": 50,
+      "hands": 53
+     },
+     "pitching": {
+      "stuff": 43,
+      "control": 37,
+      "stamina": 25
+     }
+    },
+    {
+     "id": "npb-l-90",
+     "name": "浜屋 将太",
+     "number": "90",
+     "bats": "L",
+     "throws": "L",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 56,
+      "arm": 50,
+      "hands": 53
+     },
+     "pitching": {
+      "stuff": 48,
+      "control": 30,
+      "stamina": 25
+     }
+    },
+    {
+     "id": "npb-l-45",
+     "name": "ウィンゲンター",
+     "number": "45",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": true,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 40,
+      "arm": 50,
+      "hands": 53
+     },
+     "pitching": {
+      "stuff": 66,
+      "control": 43,
+      "stamina": 26
+     }
+    },
+    {
+     "id": "npb-l-28",
+     "name": "森脇 亮介",
+     "number": "28",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "P"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 15,
+      "power": 10,
+      "eye": 15,
+      "speed": 30
+     },
+     "fielding": {
+      "range": 46,
+      "arm": 50,
+      "hands": 53
+     },
+     "pitching": {
+      "stuff": 48,
+      "control": 53,
+      "stamina": 26
+     }
+    },
+    {
+     "id": "npb-l-10",
+     "name": "小島 大河",
+     "number": "10",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "C"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 65,
+      "power": 46,
+      "eye": 34,
+      "speed": 36
+     },
+     "fielding": {
+      "range": 56,
+      "arm": 62,
+      "hands": 56
+     }
+    },
+    {
+     "id": "npb-l-22",
+     "name": "古賀 悠斗",
+     "number": "22",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "C"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 48,
+      "power": 43,
+      "eye": 59,
+      "speed": 48
+     },
+     "fielding": {
+      "range": 37,
+      "arm": 54,
+      "hands": 53
+     }
+    },
+    {
+     "id": "npb-l-6",
+     "name": "源田 壮亮",
+     "number": "6",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "SS"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 40,
+      "power": 34,
+      "eye": 50,
+      "speed": 43
+     },
+     "fielding": {
+      "range": 46,
+      "arm": 50,
+      "hands": 55
+     }
+    },
+    {
+     "id": "npb-l-62",
+     "name": "滝澤 夏央",
+     "number": "62",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "2B",
+      "SS",
+      "3B"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 69,
+      "power": 29,
+      "eye": 54,
+      "speed": 71
+     },
+     "fielding": {
+      "range": 45,
+      "arm": 50,
+      "hands": 42
+     }
+    },
+    {
+     "id": "npb-l-8",
+     "name": "渡部 聖弥",
+     "number": "8",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "3B"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 50,
+      "power": 48,
+      "eye": 31,
+      "speed": 43
+     },
+     "fielding": {
+      "range": 62,
+      "arm": 50,
+      "hands": 48
+     }
+    },
+    {
+     "id": "npb-l-26",
+     "name": "ネビン",
+     "number": "26",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "1B"
+     ],
+     "foreign": true,
+     "batting": {
+      "contact": 58,
+      "power": 69,
+      "eye": 59,
+      "speed": 38
+     },
+     "fielding": {
+      "range": 68,
+      "arm": 50,
+      "hands": 47
+     }
+    },
+    {
+     "id": "npb-l-25",
+     "name": "カナリオ",
+     "number": "25",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "LF",
+      "RF"
+     ],
+     "foreign": true,
+     "batting": {
+      "contact": 34,
+      "power": 54,
+      "eye": 41,
+      "speed": 64
+     },
+     "fielding": {
+      "range": 46,
+      "arm": 51,
+      "hands": 51
+     }
+    },
+    {
+     "id": "npb-l-51",
+     "name": "西川 愛也",
+     "number": "51",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "LF",
+      "CF",
+      "RF"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 39,
+      "power": 39,
+      "eye": 26,
+      "speed": 67
+     },
+     "fielding": {
+      "range": 50,
+      "arm": 46,
+      "hands": 61
+     }
+    },
+    {
+     "id": "npb-l-68",
+     "name": "岸 潤一郎",
+     "number": "68",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "LF",
+      "RF",
+      "1B"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 40,
+      "power": 37,
+      "eye": 34,
+      "speed": 50
+     },
+     "fielding": {
+      "range": 41,
+      "arm": 47,
+      "hands": 52
+     }
+    },
+    {
+     "id": "npb-l-37",
+     "name": "柘植 世那",
+     "number": "37",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "C"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 52,
+      "power": 42,
+      "eye": 32,
+      "speed": 40
+     },
+     "fielding": {
+      "range": 35,
+      "arm": 36,
+      "hands": 57
+     }
+    },
+    {
+     "id": "npb-l-39",
+     "name": "平沢 大河",
+     "number": "39",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "1B",
+      "3B",
+      "LF",
+      "CF",
+      "RF",
+      "2B"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 45,
+      "power": 41,
+      "eye": 46,
+      "speed": 44
+     },
+     "fielding": {
+      "range": 51,
+      "arm": 43,
+      "hands": 45
+     }
+    },
+    {
+     "id": "npb-l-63",
+     "name": "長谷川 信哉",
+     "number": "63",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "LF",
+      "CF",
+      "RF",
+      "1B"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 50,
+      "power": 62,
+      "eye": 45,
+      "speed": 52
+     },
+     "fielding": {
+      "range": 50,
+      "arm": 50,
+      "hands": 54
+     }
+    },
+    {
+     "id": "npb-l-73",
+     "name": "林 安可",
+     "number": "73",
+     "bats": "L",
+     "throws": "L",
+     "positions": [
+      "LF",
+      "RF"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 28,
+      "power": 53,
+      "eye": 51,
+      "speed": 37
+     },
+     "fielding": {
+      "range": 44,
+      "arm": 43,
+      "hands": 41
+     }
+    },
+    {
+     "id": "npb-l-4",
+     "name": "石井 一成",
+     "number": "4",
+     "bats": "L",
+     "throws": "R",
+     "positions": [
+      "2B",
+      "3B"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 36,
+      "power": 49,
+      "eye": 36,
+      "speed": 48
+     },
+     "fielding": {
+      "range": 60,
+      "arm": 50,
+      "hands": 46
+     }
+    },
+    {
+     "id": "npb-l-7",
+     "name": "桑原 将志",
+     "number": "7",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "LF",
+      "CF",
+      "RF"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 42,
+      "power": 41,
+      "eye": 48,
+      "speed": 60
+     },
+     "fielding": {
+      "range": 52,
+      "arm": 39,
+      "hands": 44
+     }
+    },
+    {
+     "id": "npb-l-5",
+     "name": "外崎 修汰",
+     "number": "5",
+     "bats": "R",
+     "throws": "R",
+     "positions": [
+      "2B",
+      "1B"
+     ],
+     "foreign": false,
+     "batting": {
+      "contact": 26,
+      "power": 42,
+      "eye": 37,
+      "speed": 44
+     },
+     "fielding": {
+      "range": 51,
+      "arm": 50,
+      "hands": 56
+     }
+    }
+   ],
+   "lineup": {
+    "order": [
+     {
+      "playerId": "npb-l-62",
+      "position": "SS"
+     },
+     {
+      "playerId": "npb-l-10",
+      "position": "C"
+     },
+     {
+      "playerId": "npb-l-63",
+      "position": "CF"
+     },
+     {
+      "playerId": "npb-l-26",
+      "position": "1B"
+     },
+     {
+      "playerId": "npb-l-25",
+      "position": "RF"
+     },
+     {
+      "playerId": "npb-l-22",
+      "position": "DH"
+     },
+     {
+      "playerId": "npb-l-8",
+      "position": "3B"
+     },
+     {
+      "playerId": "npb-l-7",
+      "position": "LF"
+     },
+     {
+      "playerId": "npb-l-4",
+      "position": "2B"
+     }
+    ],
+    "startingPitcherId": "npb-l-16",
+    "bullpen": [
+     "npb-l-90",
+     "npb-l-20",
+     "npb-l-57",
+     "npb-l-34",
+     "npb-l-28",
+     "npb-l-52",
+     "npb-l-45",
+     "npb-l-70",
+     "npb-l-19"
+    ],
+    "benchOut": [
+     "npb-l-61",
+     "npb-l-21",
+     "npb-l-12",
+     "npb-l-13",
+     "npb-l-71"
+    ]
+   }
+  }
+ ]
+}

@@ -1,8 +1,8 @@
 import { autoLineup } from '../domain/autoLineup'
 import type { FieldPosition, Hand, Player, Team } from '../domain/types'
-import { chance, createRng, pick, randNormal, type Rng } from '../sim/rng'
+import { chance, pick, randNormal, type Rng } from '../sim/rng'
 import { FOREIGN_GIVEN_NAMES, FOREIGN_SURNAMES, GIVEN_NAMES, SURNAMES } from './names'
-import { TEAM_SEEDS, type TeamSeed } from './teams'
+import type { TeamSeed } from './teams'
 
 export type PlayerRole = 'SP' | 'RP' | 'C' | '1B' | '2B' | '3B' | 'SS' | 'OF'
 
@@ -131,11 +131,8 @@ export function generateTeam(rng: Rng, seed: TeamSeed): Team {
       usedSurnames,
     }),
   )
+  // Every team needs center fielders: give CF to the best-ranging outfielders if too few have it.
+  const outfielders = roster.filter((p) => p.positions.includes('LF')).sort((a, b) => b.fielding.range - a.fielding.range)
+  for (const p of outfielders.slice(0, 2)) if (!p.positions.includes('CF')) p.positions.push('CF')
   return { ...seed, roster, lineup: autoLineup({ roster }) }
-}
-
-/** The 12 fictional teams of the default league. */
-export function generateDefaultTeams(seed = 2026): Team[] {
-  const rng = createRng(seed)
-  return TEAM_SEEDS.map((s) => generateTeam(rng, s))
 }

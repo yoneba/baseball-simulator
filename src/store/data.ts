@@ -1,10 +1,10 @@
-import { generateDefaultTeams } from '../data/generate'
+import { npbTeams, OLD_FICTIONAL_TEAM_IDS } from '../data/npb'
 import { DEFAULT_LEAGUE_RULES } from '../domain/rules'
 import type { League, LeagueRules, Team } from '../domain/types'
 import type { GameSetup, RecordedAction, Side } from '../sim/game'
 
 export const STORAGE_KEY = 'bbsim:v1'
-export const SCHEMA_VERSION = 2
+export const SCHEMA_VERSION = 3
 /** Oldest saved games are dropped past this, to stay well inside localStorage quotas. */
 export const MAX_SAVED_GAMES = 100
 
@@ -32,7 +32,7 @@ export interface AppData {
 export function defaultData(): AppData {
   return {
     schemaVersion: SCHEMA_VERSION,
-    teams: generateDefaultTeams(),
+    teams: npbTeams(),
     leagueRules: structuredClone(DEFAULT_LEAGUE_RULES),
     savedGames: [],
   }
@@ -53,6 +53,12 @@ function migrate(raw: { schemaVersion?: number } & Partial<AppData>): AppData {
       const [away, home] = stringifyNumbers([g.setup.away, g.setup.home])
       return { ...g, setup: { ...g.setup, away, home } }
     })
+  }
+  if ((raw.schemaVersion ?? 1) < 3) {
+    // Replace the old fictional default league with the real NPB teams; keep teams the user made.
+    const kept = teams.filter((t) => !OLD_FICTIONAL_TEAM_IDS.includes(t.id))
+    const real = npbTeams().filter((t) => !kept.some((k) => k.id === t.id))
+    teams = [...real, ...kept]
   }
   return {
     schemaVersion: SCHEMA_VERSION,

@@ -1,8 +1,15 @@
+import { GameSetupForm } from './GameSetupForm'
+import { useLiveGame } from './liveGameContext'
+import { LiveGameView } from './LiveGameView'
+import '../teams/teams.css'
+import './game.css'
+
 export function GamePage() {
+  const { game } = useLiveGame()
   return (
-    <section>
+    <section className="stack">
       <h1>試合</h1>
-      <p className="muted">対戦カードを選んで試合を開始します。</p>
+      {game ? <LiveGameView /> : <GameSetupForm />}
     </section>
   )
 }

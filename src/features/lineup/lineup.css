@@ -1,0 +1,31 @@
+.order-table select {
+  max-width: 100%;
+}
+
+.move-buttons {
+  display: inline-flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.move-buttons button:not(.link) {
+  padding: 2px 8px;
+}
+
+.bullpen {
+  margin: 0 0 12px;
+  padding-left: 1.5em;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.bullpen-name {
+  min-width: 12em;
+}
+
+.bench-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}

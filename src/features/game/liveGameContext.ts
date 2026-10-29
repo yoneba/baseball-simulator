@@ -7,6 +7,8 @@ export interface LiveGameValue {
   game: GameState | null
   /** User moves made so far, for replay. */
   actions: RecordedAction[]
+  /** Id in 記録 once the finished game has been saved. */
+  savedId: string | null
   /** Changes whenever the mutable game state changes, so consumers re-render. */
   version: number
   start: (setup: GameSetup) => void

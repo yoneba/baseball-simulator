@@ -1,20 +1,16 @@
 import { useEffect, useState } from 'react'
+import { Link } from 'react-router'
 import { buildBoxScore, formatInnings } from '../../sim/boxscore'
-import { describeEvent, displayName } from '../../sim/describe'
-import { battingSide, fieldingSide, type GameEvent, type GameState } from '../../sim/game'
+import { battingSide, fieldingSide } from '../../sim/game'
+import { BoxScoreView } from './BoxScoreView'
 import { Diamond } from './Diamond'
+import { gameTitle, HALF } from './labels'
+import { PlayByPlay } from './PlayByPlay'
 import { useLiveGame } from './liveGameContext'
 import { Scoreboard } from './Scoreboard'
 
-const HALF = { top: '表', bottom: '裏' } as const
-
-function resultText(g: GameState): string {
-  if (g.result === 'tie') return '引き分け'
-  return `${g.setup[g.result!].name}の勝利`
-}
-
 export function LiveGameView() {
-  const { game, advance, discard, version } = useLiveGame()
+  const { game, advance, discard, version, savedId } = useLiveGame()
   const [playing, setPlaying] = useState(false)
   const [speed, setSpeed] = useState(800)
   const final = game?.status === 'final'
@@ -38,16 +34,26 @@ export function LiveGameView() {
 
   return (
     <div className="stack live-game">
-      <Scoreboard game={game} box={box} />
-
       {final ? (
-        <div className="card final-banner">
-          <strong>試合終了 {resultText(game)}</strong>
-          <span>
-            {game.setup.away.shortName} {game.score.away} - {game.score.home} {game.setup.home.shortName}
-          </span>
-        </div>
+        <>
+          <div className="card final-banner">
+            <strong>試合終了 {gameTitle(game)}</strong>
+            <span>
+              {game.setup.away.shortName} {game.score.away} - {game.score.home} {game.setup.home.shortName}
+            </span>
+            {savedId && (
+              <Link to={`/records/${savedId}`} className="small">
+                記録に保存しました
+              </Link>
+            )}
+          </div>
+          <BoxScoreView game={game} />
+        </>
       ) : (
+        <Scoreboard game={game} box={box} />
+      )}
+
+      {!final && (
         <div className="card situation">
           <div className="situation-inning">
             <strong>
@@ -120,35 +126,6 @@ export function LiveGameView() {
           {final ? '新しい試合へ' : '試合を中止'}
         </button>
       </div>
-    </div>
-  )
-}
-
-function eventClass(e: GameEvent): string {
-  if (e.type === 'pa') return e.runs.length > 0 ? 'pbp scored' : 'pbp'
-  if (e.type === 'sub') return 'pbp sub'
-  return 'pbp marker'
-}
-
-/** 実況: newest first, with the inning on each plate appearance. */
-function PlayByPlay({ game }: { game: GameState; version: number }) {
-  const items = game.events.map((e, i) => ({ e, i })).reverse()
-  return (
-    <div className="card">
-      <h2>実況</h2>
-      {items.length === 0 && <p className="muted">プレイボール!{displayName(game.away.players[game.away.order[0].playerId])}が打席に向かいます。</p>}
-      <ol className="pbp-list" aria-live="polite">
-        {items.map(({ e, i }) => (
-          <li key={i} className={eventClass(e)}>
-            {e.type === 'pa' && (
-              <span className="pbp-inning">
-                {e.inning}回{HALF[e.half]}
-              </span>
-            )}
-            {describeEvent(game, e, i)}
-          </li>
-        ))}
-      </ol>
     </div>
   )
 }

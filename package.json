@@ -3,11 +3,16 @@
 	"private": true,
 	"version": "0.0.0",
 	"type": "module",
+	"packageManager": "bun@1.4.4",
+	"engines": {
+		"bun": ">=1.4.4"
+	},
 	"scripts": {
-		"dev": "vite",
-		"build": "tsc -b && vite build",
+		"preinstall": "case \"$npm_config_user_agent\" in bun/*) ;; *) echo 'This project uses bun. Run `bun install` instead.' >&2; exit 1 ;; esac",
+		"dev": "bun --bun vite",
+		"build": "bun --bun tsc -b && bun --bun vite build",
 		"lint": "oxlint",
-		"preview": "bun run build && vite preview",
+		"preview": "bun run build && bun --bun vite preview",
 		"deploy": "bun run build && wrangler deploy",
 		"cf-typegen": "wrangler types"
 	},

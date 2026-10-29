@@ -4,9 +4,14 @@ import type { GameEvent, GameState, PAEvent, Side } from './game'
 const BASE_NAME = { 1: '一塁', 2: '二塁', 3: '三塁' } as const
 const HALF_NAME = { top: '表', bottom: '裏' } as const
 
-/** Players are shown by surname, as in Japanese broadcasts. */
+/**
+ * Players are shown by surname, as in Japanese broadcasts: 「田中 翔太」 → 田中,
+ * 「マイク・ジョンソン」 → ジョンソン.
+ */
 export function displayName(player: Player | undefined): string {
-  return player?.name.split(/[\s　]/)[0] ?? '?'
+  if (!player) return '?'
+  if (player.name.includes('・')) return player.name.split('・').at(-1)!
+  return player.name.split(/[\s　]/)[0]
 }
 
 /** Stable pseudo-random choice so the same event always reads the same way. */
